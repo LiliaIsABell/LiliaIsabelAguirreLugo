@@ -1,0 +1,84 @@
+/*********************************************
+
+Here is where I will control the look of the website
+
+**********************************************/
+
+body {
+  background-color: #68D4FF;
+  z-index: 1;
+
+}
+
+.Logo {
+
+  position: absolute;
+  left: 640px;
+  top: 150px;
+  width: 35%;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: #FF7BF3;
+  z-index: -1;
+
+}
+
+.button1 {
+
+  position: absolute;
+  font-size: 100px;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 400px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: #FF6554;
+  z-index: 1;
+
+}
+
+.button2 {
+
+  position: absolute;
+  font-size: 100px;
+  bottom: 10px;
+  left: 250px;
+  width: 400px;
+  height: 400px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: #FF6554;
+  z-index: 1;
+
+}
+
+.button3 {
+
+  position: absolute;
+  font-size: 100px;
+  bottom: 10px;
+  right: 250px;
+  width: 400px;
+  height: 400px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: #FF6554;
+  z-index: 1;
+
+}
+
+.button4 {
+
+  position: absolute;
+  font-size: 100px;
+  top: 10px;
+  right: 170px;
+  width: 400px;
+  height: 400px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: #FF6554;
+  z-index: 1;
+
+}
