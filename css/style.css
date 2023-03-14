@@ -122,7 +122,7 @@ Home Page
 
 
 /************
-3D Art Page
+Pages
 *************/
 
 .top-bar {
@@ -130,6 +130,7 @@ Home Page
   display: flex;
   background-color: #FF7BF3;
   border: 10px solid white;
+  border-radius: 20px;
 
 }
 
@@ -150,6 +151,7 @@ Home Page
   margin-right: 400px;
   background-color: white;
   border: 5px solid black;
+  border-radius: 20px;
 
 }
 
@@ -158,5 +160,7 @@ Home Page
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  background-color: purple;
+  border-radius: 5px;
 
 }
