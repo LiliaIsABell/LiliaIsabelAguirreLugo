@@ -24,6 +24,7 @@ button {
   border-radius: 50%;
   background-color: #FF6554;
   z-index: 1;
+  font-family: "Happy Marker";
 }
 
 a:link {
@@ -94,7 +95,7 @@ Home Page
 .button3 {
 
   bottom: 10px;
-  right: 250px;
+  right: 230px;
 
 }
 
