@@ -24,7 +24,30 @@ button {
   border-radius: 50%;
   background-color: #FF6554;
   z-index: 1;
-  font-family: "Happy Marker";
+
+}
+
+h {
+  position: block;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 100px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 70px;
+  text-indent: 20px;
+}
+
+p {
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 20px;
+  font-size: 30px;
+  text-indent: 20px;
+  text-align: justify;
 }
 
 a:link {
@@ -163,5 +186,157 @@ Pages
   font-size: 30px;
   background-color: purple;
   border-radius: 5px;
+
+
+}
+
+.intro {
+
+  margin: auto;
+}
+
+/************
+Page: Stan Stopper
+*************/
+
+.art {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+
+}
+
+.art > .ssImages {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-wrap: wrap;
+
+}
+
+/************
+Bodyguard
+*************/
+
+.Bodyguard {
+  margin-top: 50px;
+  width: 30%;
+  transform: scaleX(-1);
+
+}
+
+
+.Idle {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 40%;
+
+}
+
+.RunO {
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 90%;
+
+}
+
+.RunR {
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 90%;
+
+}
+
+.singlePose {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 15%;
+
+}
+
+.rejectedRun {
+  margin-top: 50px;
+  width: 100%;
+
+}
+
+.rejectedIdle {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 40%;
+
+}
+
+/************
+Fangirl
+*************/
+
+.Fangirl {
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 25%;
+  transform: scaleX(-1);
+
+}
+
+.Run2 {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 95%;
+
+}
+
+.Climb {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 40%;
+
+}
+
+.Hit {
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 10%;
+
+}
+
+.Fall {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 80%;
+
+}
+
+/************
+Fangirl
+*************/
+
+.Idol {
+  margin-left: 30px;
+  width: 25%;
+  transform: scaleX(-1);
+
+}
+
+.Dance {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 100%;
+
+}
+
+
+.Hit2 {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 50%;
 
 }
