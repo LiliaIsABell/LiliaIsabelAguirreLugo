@@ -15,6 +15,28 @@ body {
 
 }
 
+.body3dart{
+background-color: #FF6554;
+}
+
+.body2dart{
+background-color: #7AEC96;
+}
+
+.bodyCV{
+background-color: #B27AFF;
+}
+
+.bodyAM{
+  background-color: #FF7BF3;
+}
+
+
+@font-face {
+  font-family: HappyMarker;
+  src: url("../assets/fonts/HappyMarker-xg98.ttf");
+}
+
 button {
   position: absolute;
   font-size: 100px;
@@ -22,9 +44,8 @@ button {
   height: 400px;
   border: 10px solid white;
   border-radius: 50%;
-  background-color: #FF6554;
   z-index: 1;
-
+  font-family: HappyMarker;
 }
 
 h {
@@ -50,6 +71,10 @@ p {
   text-align: justify;
 }
 
+a {
+    font-family: HappyMarker;
+}
+
 a:link {
   color: black;
   text-decoration: none;
@@ -69,6 +94,10 @@ a:active {
 }
 
 
+
+
+
+
 /************
 Home Page
 *************/
@@ -79,9 +108,6 @@ Home Page
   left: 640px;
   top: 150px;
   width: 35%;
-  border: 10px solid white;
-  border-radius: 50%;
-  background-color: #FF7BF3;
   z-index: -1;
 
 }
@@ -90,6 +116,7 @@ Home Page
 
   top: 50px;
   left: 50px;
+  background-color: #FF6554;
 
 }
 .button1:hover {
@@ -104,14 +131,15 @@ Home Page
 
   bottom: 10px;
   left: 250px;
+  background-color: #7AEC96;
 
 }
 
 .button2:hover {
 
-  border: 10px solid #FF6554;
+  border: 10px solid #7AEC96;
   background-color: white;
-  color: #FF6554;
+  color: #7AEC96;
 
 }
 
@@ -119,14 +147,15 @@ Home Page
 
   bottom: 10px;
   right: 230px;
+  background-color: #B27AFF;
 
 }
 
 .button3:hover {
 
-  border: 10px solid #FF6554;
+  border: 10px solid #B27AFF;
   background-color: white;
-  color: #FF6554;
+  color: #B27AFF;
 
 }
 
@@ -134,13 +163,14 @@ Home Page
 
   top: 10px;
   right: 170px;
+  background-color: #FF7BF3;
 
 }
 .button4:hover {
 
-  border: 10px solid #FF6554;
+  border: 10px solid #FF7BF3;
   background-color: white;
-  color: #FF6554;
+  color: #FF7BF3;
 
 }
 
@@ -152,7 +182,7 @@ Pages
 .top-bar {
 
   display: flex;
-  background-color: #FF7BF3;
+  background-color: #68D4FF;
   border: 10px solid white;
   border-radius: 20px;
 
