@@ -108,7 +108,7 @@ Home Page
   left: 640px;
   top: 150px;
   width: 35%;
-  z-index: -1;
+  z-index: 1;
 
 }
 
