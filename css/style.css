@@ -97,7 +97,6 @@ a:active {
 
 
 
-
 /************
 Home Page
 *************/
@@ -179,7 +178,7 @@ Home Page
 Pages
 *************/
 
-.top-bar {
+/* .top-bar {
 
   display: flex;
   background-color: #68D4FF;
@@ -194,13 +193,13 @@ Pages
   padding: 20px;
   font-size: 30px;
 
-}
+} */
 
 .art-display {
 
   display: flex;
   flex-wrap: wrap;
-  margin-top: 200px;
+  margin-top: 10px;
   margin-left: 400px;
   margin-right: 400px;
   background-color: white;
