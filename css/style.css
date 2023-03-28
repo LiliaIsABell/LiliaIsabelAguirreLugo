@@ -233,7 +233,7 @@ Page: Stan Stopper
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 10px;
   margin-left: 400px;
   margin-right: 400px;
   background-color: white;
@@ -242,14 +242,7 @@ Page: Stan Stopper
 
 }
 
-.art > .ssImages {
 
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  flex-wrap: wrap;
-
-}
 
 /************
 Bodyguard
