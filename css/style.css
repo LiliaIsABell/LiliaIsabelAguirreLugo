@@ -70,12 +70,10 @@ h1:hover{
 }
 
 h3 {
-  margin-right: 20px;
-  font-size: 30px;
+  margin-top: 50px;
+  font-size: 70px;
+  text-indent: 20px;
   font-family: "HP Simplified";
-  color: #7AEC96;
-  background-color: #7AEC96;
-  text-align: left;
 
 }
 
@@ -92,7 +90,9 @@ p {
 
 
 a {
-    font-family: HappyMarker;
+
+  font-family: HappyMarker;
+
 }
 
 a:link {
@@ -240,12 +240,14 @@ Pages
 }
 
 
+
+
 /************
 Page: Stan Stopper
 *************/
 
 .art {
-
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -255,6 +257,17 @@ Page: Stan Stopper
   background-color: white;
   border: 5px solid black;
   border-radius: 20px;
+  z-index: 1;
+
+}
+
+.description {
+  /* margin-bottom: 80px; */
+}
+
+ .art > .ref {
+
+  margin: 30px;
 
 }
 
@@ -266,7 +279,7 @@ Page: Stan Stopper
    padding: 50px 0;
    text-align: left;
    background-color: #68D4FF;
-   margin-top: 20px;
+
 
 }
 
@@ -276,8 +289,17 @@ Page: Stan Stopper
    padding: 50px 0;
    text-align: left;
    background-color: #68D4FF;
-   margin-top: 80px;
 
+
+
+}
+
+#dropdown3 {
+  display: none;
+  width: 100%;
+   padding: 50px 0;
+   text-align: left;
+   background-color: #68D4FF;
 
 }
 
@@ -398,8 +420,10 @@ Idol
 
 .Idol {
   margin-left: 30px;
+  margin-bottom: 80px;
   width: 25%;
   transform: scaleX(-1);
+  float: left;
 
 }
 
@@ -415,5 +439,15 @@ Idol
   margin-top: 50px;
   margin-left: 30px;
   width: 50%;
+
+}
+
+
+/************
+References
+*************/
+.moodboard {
+
+  float: left;
 
 }
