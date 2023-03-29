@@ -91,9 +91,9 @@ function showSlides(n) {
 
 function moreClick() {
   var x = document.getElementById("dropdown");
-  if (x.style.display === "content") {
+  if (x.style.display === "block") {
     x.style.display = "none";
   } else {
-    x.style.display = "content";
+    x.style.display = "block";
   }
 }
