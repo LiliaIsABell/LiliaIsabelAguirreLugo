@@ -10,6 +10,7 @@ Here is were I will set up any fun effects.
 
 
 let circle = [1,2,3,4,5];
+let slideIndex = 1;
 
 
 // Added preload fuction
@@ -52,10 +53,13 @@ function draw() {
   circle[4].move();
 
 
+showSlides(slideIndex);
+
+
 }
 
-let slideIndex = 1;
-showSlides(slideIndex);
+
+
 
 // Next/previous controls
 function plusSlides(n) {
@@ -83,4 +87,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 
+}
+
+function moreClick() {
+  var x = document.getElementById("dropdown");
+  if (x.style.display === "content") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "content";
+  }
 }

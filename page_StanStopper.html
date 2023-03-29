@@ -14,6 +14,7 @@
 
     <!-- My script(s) -->
     <script src="js/script.js"></script>
+    <script src="js/Circle.js"></script>
   </head>
 
 <!-- HTML -->
@@ -24,6 +25,7 @@
 
     </div>
 
+<!-- BEGINNING -->
     <div class="art">
 
 <h> Stan Stopper </h>
@@ -40,6 +42,9 @@
   Étienne Racine and Che Tan who handled the programing, sounds and additional art.
 
  </p>
+
+
+ <!-- Slideshow -->
 
  <!-- Container for the image gallery -->
 <div class="container">
@@ -96,22 +101,17 @@
 </div>
 
 
-<!-- <div class="intro">
-Game Introduction
-<img class="Game" src="assets/art/StanStopper/SS_start.png" alt="SS start"  >
-<img class="Game" src="assets/art/StanStopper/SS_instructions.png" alt="SS instructions"  >
-<img class="Game" src="assets/art/StanStopper/SS_game1.png" alt="SS gameplay 1"  >
-<img class="Game" src="assets/art/StanStopper/SS_game2.png" alt="SS gameplay 2"  >
-<img class="Game" src="assets/art/StanStopper/SS_end.png" alt="SS end"  >
-
-</div> -->
-
-
-
-
 <!-- Bodyguard images-->
-<h1> Bodyguard </h1>
-<img class="Bodyguard" src="assets/art/StanStopper/Idle.png" alt="Bodyguard Default Apperance"  >
+<h1  onclick="moreClick()">  Bodyguard </h1>
+<div class="description"> <img class="Bodyguard" src="assets/art/StanStopper/Idle.png" alt="Bodyguard Default Apperance"  >
+ <p> This is the chracter the player plays as. I came up for a design for this chracter pretty quickly. However, because
+ the game is themed around kpop, I looked up photos of specifically Korean bodyguards to see if they dressed a differently to American ones.
+ Interestingly, there was no significant difference but I noticed that the bodyguards were either bald or kept their hair short,
+ so I made sure to give this charcter a short and well coiffed hairstyle. </p>
+</div>
+
+  <div id="dropdown">
+<h2> Idle pose </h2>
 <img class="Idle" src="assets/art/StanStopper/Bodyguard_Idle_SpriteSheet.png" alt="Bodyguard Idle"  >
 <img class="RunO" src="assets/art/StanStopper/Bodyguard_originalRun_SpriteSheet.png" alt="Bodyguard original run"  >
 <img class="singlePose" src="assets/art/StanStopper/Bodyguard-Hit.png" alt="Bodyguard Hit"  >
@@ -119,6 +119,7 @@ Game Introduction
 <img class="RunR" src="assets/art/StanStopper/Bodyguard_rejectedRun_SpriteSheet.png" alt="Bodyguard rejected run"  >
 <img class="rejectedRun" src="assets/art/StanStopper/Bodyguard_rejectedRun.png" alt="Bodyguard rejected run with gun"  >
 <img class="rejectedIdle" src="assets/art/StanStopper/Bodyguard_rejectedIdle.png" alt="Bodyguard rejected idle with gun"  >
+  </div>
 
 
 <!-- Fangirl images-->
@@ -137,12 +138,8 @@ Game Introduction
 <img class="Hit2" src="assets/art/StanStopper/Idol-Hit_SpriteSheet.png" alt="Idol hit"  >
 
 
-
-
-
     </div>
-
-
+<!-- END -->
 
 
   </body>

@@ -48,17 +48,43 @@ button {
   font-family: HappyMarker;
 }
 
+
 h {
   position: block;
   margin: auto;
   margin-top: 50px;
   font-size: 100px;
+  font-family: "HP Simplified";
 }
 
 h1 {
   margin-top: 50px;
   font-size: 70px;
   text-indent: 20px;
+  font-family: "HP Simplified";
+}
+
+h1:hover{
+  color: purple;
+}
+
+}
+
+h2 {
+  margin: 0px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "HP Simplified";
+}
+
+h3 {
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: "HP Simplified";
+  color: #7AEC96;
+  background-color: #7AEC96;
+  text-align: left;
+
 }
 
 p {
@@ -69,7 +95,9 @@ p {
   font-size: 30px;
   text-indent: 20px;
   text-align: justify;
+  font-family: "HP Simplified";
 }
+
 
 a {
     font-family: HappyMarker;
@@ -219,10 +247,6 @@ Pages
 
 }
 
-.intro {
-
-  margin: auto;
-}
 
 /************
 Page: Stan Stopper
@@ -244,6 +268,17 @@ Page: Stan Stopper
 
 
 
+#dropdown {
+  display: none;
+  width: 100%;
+   padding: 50px 0;
+   text-align: center;
+   background-color: lightblue;
+   margin-top: 20px;
+
+}
+
+
 /************
 Bodyguard
 *************/
@@ -252,7 +287,8 @@ Bodyguard
   margin-top: 50px;
   width: 30%;
   transform: scaleX(-1);
-
+  z-index: -1;
+  float: left;
 }
 
 
