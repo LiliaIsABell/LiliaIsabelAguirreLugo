@@ -89,8 +89,18 @@ function showSlides(n) {
 
 }
 
-function moreClick() {
-  var x = document.getElementById("dropdown");
+function bodyguard() {
+  var x = document.getElementById("dropdown1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+function fangirl() {
+  var x = document.getElementById("dropdown2");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

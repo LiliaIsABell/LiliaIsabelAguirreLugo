@@ -65,16 +65,8 @@ h1 {
 }
 
 h1:hover{
-  color: purple;
-}
+  color: #68D4FF;
 
-}
-
-h2 {
-  margin: 0px;
-  padding: 20px;
-  font-size: 30px;
-  font-family: "HP Simplified";
 }
 
 h3 {
@@ -268,16 +260,35 @@ Page: Stan Stopper
 
 
 
-#dropdown {
+#dropdown1 {
   display: none;
   width: 100%;
    padding: 50px 0;
-   text-align: center;
-   background-color: lightblue;
+   text-align: left;
+   background-color: #68D4FF;
    margin-top: 20px;
 
 }
 
+#dropdown2 {
+  display: none;
+  width: 100%;
+   padding: 50px 0;
+   text-align: left;
+   background-color: #68D4FF;
+   margin-top: 80px;
+
+
+}
+
+
+h2 {
+  margin: 0px;
+  margin-left: 10px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "HP Simplified";
+}
 
 /************
 Bodyguard
@@ -293,35 +304,39 @@ Bodyguard
 
 
 .Idle {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
+  margin-bottom: 20px;
   width: 40%;
 
 }
 
 .RunO {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 10px;
+  margin-bottom: 20px;
   width: 90%;
 
 }
 
 .RunR {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 40px;
+  margin-bottom: 20px;
   width: 90%;
 
 }
 
 .singlePose {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
+  margin-bottom: 20px;
   width: 15%;
 
 }
 
 .rejectedRun {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 100%;
 
 }
@@ -342,39 +357,43 @@ Fangirl
   margin-left: 60px;
   width: 25%;
   transform: scaleX(-1);
+  float: left;
 
 }
 
 .Run2 {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
+  margin-bottom: 20px;
   width: 95%;
 
 }
 
 .Climb {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 50px;
+  margin-bottom: 20px;
   width: 40%;
 
 }
 
 .Hit {
-  margin-top: 50px;
-  margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 20px;
   width: 10%;
 
 }
 
 .Fall {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
   width: 80%;
 
 }
 
 /************
-Fangirl
+Idol
 *************/
 
 .Idol {
