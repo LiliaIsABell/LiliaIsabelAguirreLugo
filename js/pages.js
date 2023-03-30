@@ -69,3 +69,12 @@ function idol() {
     x.style.display = "block";
   }
 }
+
+function cutScene() {
+  var x = document.getElementById("dropdown4");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
