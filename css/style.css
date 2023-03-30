@@ -150,8 +150,12 @@ a:active {
   color: purple;
 }
 
+video {
+display: block;
+margin: auto;
+width: 97%;
 
-
+}
 
 
 /************
