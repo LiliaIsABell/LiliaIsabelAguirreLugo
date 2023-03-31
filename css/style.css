@@ -50,6 +50,7 @@ button {
 
 
 h {
+  text-align: center;
   position: block;
   margin: auto;
   margin-top: 100px;
@@ -317,9 +318,9 @@ Page: Stan Stopper
 #dropdown1 {
   display: none;
   width: 100%;
-   padding: 50px 0;
-   text-align: left;
-   background-color: #68D4FF;
+  padding: 50px 0;
+  text-align: left;
+  background-color: #68D4FF;
 
 
 }
@@ -327,9 +328,9 @@ Page: Stan Stopper
 #dropdown2 {
   display: none;
   width: 100%;
-   padding: 50px 0;
-   text-align: left;
-   background-color: #68D4FF;
+  padding: 50px 0;
+  text-align: left;
+  background-color: #68D4FF;
 
 
 
@@ -338,18 +339,18 @@ Page: Stan Stopper
 #dropdown3 {
   display: none;
   width: 100%;
-   padding: 50px 0;
-   text-align: left;
-   background-color: #68D4FF;
+  padding: 50px 0;
+  text-align: left;
+  background-color: #68D4FF;
 
 }
 
 #dropdown4 {
   display: none;
+  margin-top:50px;
   width: 100%;
-   padding: 50px 0;
-   text-align: left;
-   background-color: #68D4FF;
+  text-align: center;
+  background-color: #68D4FF;
 
 }
 
