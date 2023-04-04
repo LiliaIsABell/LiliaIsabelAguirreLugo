@@ -18,8 +18,8 @@ class Circle {
 
 display(){
   // Draw a circle
-  stroke(50);
-  fill(0);
+  stroke(0,0,0, 0);
+  fill(250, 234, 130);
   ellipse(this.x, this.y, 100, 100);
 
 }
@@ -47,7 +47,7 @@ move() {
   // random() will be < 0.05 .5% of the time, so the prey-firefly
   // will change direction on .5% of frames
 
-  if (random() < 0.05) {
+  if (random() < 0.07) {
     // Set velocity based on random values to get a new direction
     // and speed of movement
     //
