@@ -38,8 +38,30 @@
   -webkit-user-select: none;
 }
 
+.prev2,
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 28%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 /* Position the "next button" to the right */
+
 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next2 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -50,20 +72,22 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Six columns side by side */
-.column {
+
+/* columns side by side */
+.column1 {
   float: left;
   width: 20%;
 }
+
+/* .column2 {
+  float: left;
+  width: 25%;
+} */
 
 /* Add a transparency effect for thumnbail images */
 .demo {
