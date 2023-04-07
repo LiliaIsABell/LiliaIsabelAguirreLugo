@@ -457,6 +457,15 @@ Page: Stan Stopper
   background-color: #68D4FF;
 
 }
+#dropdown7 {
+  display: none;
+  margin-top:50px;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #68D4FF;
+
+}
 
 
 h2 {

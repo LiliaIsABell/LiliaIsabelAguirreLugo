@@ -96,3 +96,12 @@ function more2() {
     x.style.display = "block";
   }
 }
+
+function more3() {
+  var x = document.getElementById("dropdown7");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
