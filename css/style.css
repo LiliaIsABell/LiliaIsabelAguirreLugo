@@ -61,17 +61,24 @@ h {
 }
 
 h1 {
-  margin-top: 50px;
+  margin-left: 40px;
   font-size: 70px;
-  text-indent: 20px;
   font-family: "HP Simplified";
+  float: left;
+  padding: 30px;
+  border-radius: 15%;
+  border: 10px solid #68D4FF;
+  background-color: white;
+
 }
+
+
 h1 .tooltiptext {
   visibility: hidden;
   font-size: 20px;
   width: 160px;
-  background-color: #68D4FF;
-  color: white;
+  background-color: white;
+  color: #68D4FF;
   text-align: left;
   border-radius: 6px;
   padding: 5px 0;
@@ -87,7 +94,9 @@ h1:hover .tooltiptext{
 }
 
 h1:hover{
-  color: #68D4FF;
+  color: #white;
+  background-color: #68D4FF;
+  border: 10px solid white;
   cursor: pointer;
 
 }
@@ -101,19 +110,18 @@ h3 {
 }
 
 p {
-
-
+  margin: 0px;
   font-family: "HP Simplified";
 }
 
 .intro {
   margin:0px;
   padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-size: 30px;
   text-indent: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .text {
@@ -145,7 +153,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: purple;
 }
 
 a:active {
@@ -156,6 +164,7 @@ video {
 display: block;
 margin: auto;
 width: 97%;
+border-radius: 3%;
 
 }
 
@@ -241,23 +250,6 @@ Home Page
 Pages
 *************/
 
-/* .top-bar {
-
-  display: flex;
-  background-color: #68D4FF;
-  border: 10px solid white;
-  border-radius: 20px;
-
-}
-
-.top-bar > a {
-
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-
-} */
-
 .art-display {
 
   display: flex;
@@ -279,10 +271,55 @@ Pages
   background-color: purple;
   border-radius: 5px;
 
-
 }
 
 
+.section {
+  margin: 40px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.para {
+  margin:0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 30px;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.card {
+font-size: 50px;
+font-family: "HP Simplified";
+font-weight: bold;
+
+}
+
+/************
+Page: CV and About Me
+*************/
+h4 {
+  font-weight: bold;
+  font-family: "HP Simplified";
+  font-size: 40px;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: "HP Simplified";
+  font-size: 30px;
+  /* color: #B27AFF; */
+
+}
+
+h6 {
+  float: left;
+  margin: 0px;
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: "HP Simplified";
+}
 
 
 /************
@@ -295,8 +332,8 @@ Page: Stan Stopper
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 10px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 250px;
+  margin-right: 250px;
   background-color: white;
   border: 5px solid black;
   border-radius: 20px;
