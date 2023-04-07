@@ -79,8 +79,17 @@ function cutScene() {
   }
 }
 
-function more() {
+function more1() {
   var x = document.getElementById("dropdown5");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function more2() {
+  var x = document.getElementById("dropdown6");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
