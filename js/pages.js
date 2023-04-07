@@ -78,3 +78,12 @@ function cutScene() {
     x.style.display = "block";
   }
 }
+
+function more() {
+  var x = document.getElementById("dropdown5");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

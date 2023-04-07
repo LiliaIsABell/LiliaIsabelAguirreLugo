@@ -65,7 +65,7 @@ h1 {
   font-size: 70px;
   font-family: "HP Simplified";
   float: left;
-  padding: 30px;
+  padding: 10px;
   border-radius: 15%;
   border: 10px solid #68D4FF;
   background-color: white;
@@ -122,6 +122,7 @@ p {
   font-size: 30px;
   text-indent: 20px;
   text-align: center;
+  line-height: 1.5;
 }
 
 .text {
@@ -133,6 +134,7 @@ p {
   text-indent: 20px;
   text-align: justify;
   font-family: "HP Simplified";
+  line-height: 1.5;
 }
 
 
@@ -157,6 +159,28 @@ a:hover {
 }
 
 a:active {
+  color: purple;
+}
+
+.noB {
+	font-family: "HP Simplified";
+}
+
+.noB :link {
+  color: black;
+  text-decoration: none;
+}
+
+.noB :visited {
+  color: black;
+  text-decoration: none;
+}
+
+.noB :hover {
+  color: purple;
+}
+
+.noB :active {
   color: purple;
 }
 
@@ -286,6 +310,7 @@ Pages
   margin-right: 40px;
   font-size: 30px;
   text-indent: 20px;
+  line-height: 1.5;
   text-align: justify;
 }
 
@@ -351,7 +376,28 @@ Page: Stan Stopper
 
 }
 
+.more{
+	
+	font-size: 50px;
+	font-family: "HP Simplified";
+	font-weight: bold;
+	float: left;
+	padding: 5px;
+	border-radius: 15%;
+	border: 5px solid #68D4FF;
+	background-color: white;
+}
 
+.more:hover{
+	
+	font-size: 50px;
+	font-family: "HP Simplified";
+	font-weight: bold;
+	color: #white;
+	background-color: #68D4FF;
+	border: 5px solid white;
+	cursor: pointer;
+}
 
 #dropdown1 {
   display: none;
@@ -387,6 +433,16 @@ Page: Stan Stopper
   display: none;
   margin-top:50px;
   width: 100%;
+  text-align: center;
+  background-color: #68D4FF;
+
+}
+
+#dropdown5 {
+  display: none;
+  margin-top:50px;
+  width: 100%;
+  padding: 50px 0;
   text-align: center;
   background-color: #68D4FF;
 
@@ -465,6 +521,7 @@ Fangirl
 
 .Fangirl {
   margin-top: 40px;
+margin-bottom: 30px;
   margin-left: 60px;
   width: 25%;
   transform: scaleX(-1);
@@ -560,3 +617,5 @@ References
   float: left;
 
 }
+
+
