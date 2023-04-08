@@ -79,7 +79,7 @@ function cutScene() {
   }
 }
 
-function characters() {
+function assets() {
   var x = document.getElementById("dropdown8");
   if (x.style.display === "block") {
     x.style.display = "none";
