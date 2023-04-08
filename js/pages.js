@@ -123,3 +123,12 @@ function more4() {
     x.style.display = "block";
   }
 }
+
+function more5() {
+  var x = document.getElementById("dropdown10");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

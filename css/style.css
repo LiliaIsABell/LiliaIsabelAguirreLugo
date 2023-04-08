@@ -473,8 +473,6 @@ Page: Stan Stopper
   padding: 50px 0;
   text-align: left;
   background-color: #68D4FF;
-
-
 }
 
 #dropdown9 {
@@ -484,8 +482,14 @@ Page: Stan Stopper
   padding: 50px 0;
   text-align: left;
   background-color: #68D4FF;
+}
 
-
+#dropdown10 {
+   display: none;
+  width: 100%;
+  padding: 50px 0;
+  text-align: left;
+  background-color: #68D4FF;
 }
 
 
