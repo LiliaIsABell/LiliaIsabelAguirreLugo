@@ -5,13 +5,14 @@ Here is where I will control the look of the website
 **********************************************/
 
 
-/************
-General
-*************/
+
 
 body {
+  margin: 0px;
+  padding: 0px;
   background-color: #68D4FF;
   z-index: 1;
+  font-family: 'Trebuchet MS', sans-serif;
 
 }
 
@@ -57,13 +58,28 @@ h {
   margin-bottom: 50px;
   font-size: 100px;
   font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
 }
 
+video {
+display: block;
+margin: auto;
+border-radius: 3%;
+
+}
+
+/************
+Hoverable
+*************/
+
+
 h1 {
   margin-left: 40px;
+  margin-top: 150px;
   font-size: 70px;
   font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
   float: left;
   padding: 10px;
   border-radius: 15%;
@@ -101,43 +117,30 @@ h1:hover{
 
 }
 
-h3 {
-  margin-top: 50px;
-  font-size: 70px;
-  text-indent: 20px;
-  font-family: "HP Simplified";
-
+.more{
+	
+	font-size: 50px;
+	font-family: "HP Simplified";
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	float: left;
+	padding: 5px;
+	border-radius: 15%;
+	border: 5px solid #68D4FF;
+	background-color: white;
 }
 
-p {
-  margin: 0px;
-  font-family: "HP Simplified";
+.more:hover{
+	
+	font-size: 50px;
+	font-family: "HP Simplified";
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	color: #white;
+	background-color: #68D4FF;
+	border: 5px solid white;
+	cursor: pointer;
 }
-
-.intro {
-  margin:0px;
-  padding: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 30px;
-  text-indent: 20px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.text {
-
-  padding: 20px;
-  margin-top: 50px;
-  margin-right: 20px;
-  font-size: 30px;
-  text-indent: 20px;
-  text-align: justify;
-  font-family: "HP Simplified";
-  line-height: 1.5;
-}
-
-
 a {
 
   font-family: HappyMarker;
@@ -164,6 +167,7 @@ a:active {
 
 .noB {
 	font-family: "HP Simplified";
+	font-family: 'Trebuchet MS', sans-serif;
 }
 
 .noB :link {
@@ -184,13 +188,131 @@ a:active {
   color: purple;
 }
 
-video {
-display: block;
-margin: auto;
-width: 97%;
-border-radius: 3%;
+/************
+Text Boxes
+*************/
+
+/************
+Art Gallery
+*************/
+.art-display {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
 
 }
+
+.art-display > div {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: purple;
+  border-radius: 5px;
+
+}
+
+/************
+Art Presentation
+*************/
+.art {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+  z-index: 1;
+
+
+}
+
+ .art > .ref {
+
+  margin: 30px;
+
+}
+
+
+/************
+Text for Art
+*************/
+h3 {
+  margin-left: 40px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 70px;
+  text-indent: 20px;
+  font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+p {
+  margin: 0px;
+  font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.intro {
+  margin:0px;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  text-indent: 45px;
+  text-align: center;
+  line-height: 2;
+}
+
+.para {
+  margin:0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 30px;
+  text-indent: 45px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.text {
+
+  margin-top: 50px;
+  margin-right: 40px;
+  font-size: 30px;
+  text-indent: 45px;
+  text-align: justify;
+  font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
+  line-height: 2;
+}
+
+.section {
+  margin: 40px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.card {
+font-size: 50px;
+font-family: "HP Simplified";
+font-family: 'Trebuchet MS', sans-serif;
+font-weight: bold;
+
+}
+
+
+
 
 
 /************
@@ -270,56 +392,8 @@ Home Page
 }
 
 
-/************
-Pages
-*************/
-
-.art-display {
-
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  margin-left: 400px;
-  margin-right: 400px;
-  background-color: white;
-  border: 5px solid black;
-  border-radius: 20px;
-
-}
-
-.art-display > div {
-
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  background-color: purple;
-  border-radius: 5px;
-
-}
 
 
-.section {
-  margin: 40px;
-  margin-bottom: 10px;
-  font-size: 30px;
-}
-
-.para {
-  margin:0px;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 30px;
-  text-indent: 20px;
-  line-height: 1.5;
-  text-align: justify;
-}
-
-.card {
-font-size: 50px;
-font-family: "HP Simplified";
-font-weight: bold;
-
-}
 
 /************
 Page: CV and About Me
@@ -327,12 +401,14 @@ Page: CV and About Me
 h4 {
   font-weight: bold;
   font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 40px;
 }
 
 h5 {
   font-weight: bold;
   font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 30px;
   /* color: #B27AFF; */
 
@@ -344,60 +420,16 @@ h6 {
   margin-right: 20px;
   font-size: 30px;
   font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
 }
+
+
+
 
 
 /************
-Page: Stan Stopper
+Dropdown Elements
 *************/
-
-.art {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-left: 250px;
-  margin-right: 250px;
-  background-color: white;
-  border: 5px solid black;
-  border-radius: 20px;
-  z-index: 1;
-
-}
-
-.description {
-  /* margin-bottom: 80px; */
-}
-
- .art > .ref {
-
-  margin: 30px;
-
-}
-
-.more{
-	
-	font-size: 50px;
-	font-family: "HP Simplified";
-	font-weight: bold;
-	float: left;
-	padding: 5px;
-	border-radius: 15%;
-	border: 5px solid #68D4FF;
-	background-color: white;
-}
-
-.more:hover{
-	
-	font-size: 50px;
-	font-family: "HP Simplified";
-	font-weight: bold;
-	color: #white;
-	background-color: #68D4FF;
-	border: 5px solid white;
-	cursor: pointer;
-}
 
 #dropdown1 {
   display: none;
@@ -440,29 +472,26 @@ Page: Stan Stopper
 
 #dropdown5 {
   display: none;
-  margin-top:50px;
   width: 100%;
-  padding: 50px 0;
-  text-align: center;
+  padding: 50px;
+  text-align: left;
   background-color: #68D4FF;
 
 }
 
 #dropdown6 {
   display: none;
-  margin-top:50px;
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
+  width: 92.8%;
+  padding: 50px ;
+  text-align: left;
   background-color: #68D4FF;
 
 }
 #dropdown7 {
   display: none;
-  margin-top:50px;
   width: 100%;
-  padding: 50px 0;
-  text-align: center;
+  padding: 50px;
+  text-align: left;
   background-color: #68D4FF;
 
 }
@@ -478,16 +507,15 @@ Page: Stan Stopper
 #dropdown9 {
   display: none;
   width: 100%;
-  allign-items: left;
-  padding: 50px 0;
+  padding: 50px;
   text-align: left;
   background-color: #68D4FF;
 }
 
 #dropdown10 {
-   display: none;
+  display: none;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px ;
   text-align: left;
   background-color: #68D4FF;
 }
@@ -499,7 +527,16 @@ h2 {
   padding: 20px;
   font-size: 30px;
   font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
 }
+
+
+
+
+
+/************
+ Stan Stopper
+*************/
 
 /************
 Bodyguard
@@ -565,7 +602,7 @@ Fangirl
 
 .Fangirl {
   margin-top: 40px;
-margin-bottom: 30px;
+  margin-bottom: 200px;
   margin-left: 60px;
   width: 25%;
   transform: scaleX(-1);
@@ -638,13 +675,14 @@ Gun and Shirt
 .Gun {
   margin-top: 50px;
   margin-left: 30px;
+  margin-bottom: 100px;
   width: 30%;
   float: left;
 
 }
 .Shirt {
   margin-top: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   margin-left: 30px;
   margin-right: 30px;
   width: 15%;
