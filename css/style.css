@@ -700,20 +700,13 @@ References
 
 }
 
-/*eButton {
-
-  background-color: #68D4FF;
-  border: 10px solid white;
-  border-radius: 50%;
-
-}
-*/
 
 
 .homeDD {
   position: relative;
   display: inline-block;
   background: white;
+  width:50%;
 }
 
 .dropdown-content {
@@ -721,25 +714,66 @@ References
   flex-direction: column;
  
 }
+.dropdown-content > .button{
 
-.dropdown-content .button1{
-  background-color: #FF6554;
   display: block;
+  position: absolute;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  right:0px;
+
+
+}
+
+/*.dropdown-content .button1{
+
+  display: block;
+  position: absolute;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  right:0px;
+
+
 }
 .dropdown-content .button2 {
-  background-color: #FF6554;
+
   display: block;
+  position: absolute;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  right:0px;
 }
-.dropdown-content .button2 {
-  background-color: #FF6554;
+.dropdown-content .button3 {
+
   display: block;
+  position: absolute;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  right:0px;
 }
 .dropdown-content .button4 {
-  background-color: #FF6554;
+
   display: block;
+  position: absolute;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  right:0px;
 }
+*/
 
+.homeDD:hover .dropdown-content {
+	display: flex;
+	flex-direction: column;
+	
+	}
 
-.homeDD:hover .dropdown-content {display: flex;}
-
-.homeDD:hover .homeButton {background-color: #3e8e41;}
