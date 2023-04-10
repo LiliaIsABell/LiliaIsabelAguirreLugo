@@ -49,6 +49,15 @@ button {
   font-family: HappyMarker;
 }
 
+.btn{
+	background: none;
+  border:none;
+}
+
+.btn:hover {
+	background: none;
+  border:none;
+}
 
 h {
   text-align: center;
