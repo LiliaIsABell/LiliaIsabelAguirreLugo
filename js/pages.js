@@ -98,7 +98,7 @@ function more1() {
 }
 
 function more2() {
-  var x = document.getElementById("dropdown6");
+  var x = document.getElementById("dropdown7");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
@@ -107,7 +107,7 @@ function more2() {
 }
 
 function more3() {
-  var x = document.getElementById("dropdown7");
+  var x = document.getElementById("dropdown6");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

@@ -17,7 +17,7 @@ body {
 }
 
 .body3dart{
-background-color: #FF6554;
+background-color: #FF796A;
 }
 
 .body2dart{
@@ -56,7 +56,7 @@ h {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-  font-size: 50px;
+  font-size: 70px;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
@@ -143,7 +143,13 @@ h1:hover{
 }
 a {
 
-  font-family: HappyMarker;
+
+	font-weight: bold;
+	padding: 1px;
+	border-radius: 15%;
+	border: 5px solid #68D4FF;
+	background-color: white;
+	font-family: HappyMarker;
 
 }
 
@@ -158,34 +164,25 @@ a:visited {
 }
 
 a:hover {
-  color: purple;
+	color: white;
+	background-color: #68D4FF;
+	border: 5px solid white;
+	cursor: pointer;
 }
 
 a:active {
-  color: purple;
+	color: white;
+	background-color: #68D4FF;
+	border: 5px solid white;
+	cursor: pointer;
 }
 
 .noB {
+
+	font-size: 50px;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
-}
-
-.noB :link {
-  color: black;
-  text-decoration: none;
-}
-
-.noB :visited {
-  color: black;
-  text-decoration: none;
-}
-
-.noB :hover {
-  color: purple;
-}
-
-.noB :active {
-  color: purple;
+	
 }
 
 .download {
@@ -274,7 +271,7 @@ h3 {
   margin-left: 40px;
   margin-top: 150px;
   margin-bottom: 50px;
-  font-size: 70px;
+  font-size: 60px;
   text-indent: 20px;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
@@ -357,14 +354,14 @@ Home Page
 
   top: 50px;
   left: 50px;
-  background-color: #FF6554;
+  background-color: #FF796A;
 
 }
 .button1:hover {
 
-  border: 10px solid #FF6554;
+  border: 10px solid #FF796A;
   background-color: white;
-  color: #FF6554;
+  color: #FF796A;
 
 }
 
@@ -505,10 +502,11 @@ Dropdown Elements
 
 #dropdown6 {
   display: none;
-  width: 92.8%;
+  width: 100%;
   padding: 50px ;
   text-align: left;
   background-color: #68D4FF;
+
 
 }
 #dropdown7 {
@@ -729,7 +727,9 @@ Dropdown Menu
 *************/
 
 .homeButton {
-  padding: 16px;
+  padding: 20px;
+  background: none;
+  border:none;
 
 
 }
@@ -757,7 +757,7 @@ Dropdown Menu
   padding-bottom: 75px; 
   font-size: 50px;
   margin-left:10px;
-  background: #FF6554;
+  background: #FF796A;
   border: 10px solid white;
   border-radius: 50%;
   z-index: 1;
@@ -810,9 +810,9 @@ Dropdown Menu
 
 .dropdown-content .b1:hover {
 	
-  border: 10px solid #FF6554;
+  border: 10px solid #FF796A;
   background-color: white;
-  color: #FF6554;
+  color: #FF796A;
 	
 	}
 	
@@ -842,7 +842,14 @@ Dropdown Menu
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .homeButton {
+	 padding: 20px;
+	background: none;
+	border:none;
+	
+	}
+
+
 
 
 
