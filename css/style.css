@@ -700,12 +700,24 @@ References
 
 }
 
-
+.homeButton{
+	
+  display: block;
+  position: absolute;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  right:0px;
+	
+}
 
 .homeDD {
-  position: relative;
-  display: inline-block;
+
+  display: flex;
+  flex-direction: column;
   background: white;
+  align: left;
   width:50%;
 }
 
@@ -714,7 +726,7 @@ References
   flex-direction: column;
  
 }
-.dropdown-content > .button{
+/*.dropdown-content > .button{
 
   display: block;
   position: absolute;
@@ -726,8 +738,9 @@ References
 
 
 }
+*/
 
-/*.dropdown-content .button1{
+.dropdown-content .button1{
 
   display: block;
   position: absolute;
@@ -769,11 +782,13 @@ References
   top: 0px;
   right:0px;
 }
-*/
 
 .homeDD:hover .dropdown-content {
 	display: flex;
 	flex-direction: column;
 	
 	}
+
+.dropdown:hover .homeButton {background-color: #3e8e41;}
+
 
