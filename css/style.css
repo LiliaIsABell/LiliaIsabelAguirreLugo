@@ -29,7 +29,7 @@ background-color: #B27AFF;
 }
 
 .bodyAM{
-  background-color: #FF7BF3;
+  background-color: #FF97F6;
 }
 
 
@@ -56,7 +56,7 @@ h {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-  font-size: 100px;
+  font-size: 50px;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
@@ -188,6 +188,29 @@ a:active {
   color: purple;
 }
 
+.download {
+position: absolute;
+padding-top:90px;
+padding-bottom:90px;
+padding-left:10px;
+padding-right:10px;
+margin:30px;
+background-color: #68D4FF;
+border: 10px solid white;
+border-radius: 50%;
+z-index: 1;
+font-size:30px;
+font-family: HappyMarker;
+
+}
+.download:hover {
+
+  border: 10px solid #68D4FF;
+  background-color: white;
+  color: #68D4FF;
+
+}
+
 /************
 Text Boxes
 *************/
@@ -229,7 +252,7 @@ Art Presentation
   margin-top: 10px;
   margin-left: 250px;
   margin-right: 250px;
-  background-color: white;
+  background-color: #f5f5f5;
   border: 5px solid black;
   border-radius: 20px;
   z-index: 1;
@@ -276,10 +299,11 @@ p {
 }
 
 .para {
+  color: #303030;
   margin:0px;
   margin-left: 40px;
   margin-right: 40px;
-  font-size: 30px;
+  font-size: 25px;
   text-indent: 45px;
   line-height: 2;
   text-align: justify;
@@ -380,14 +404,14 @@ Home Page
 
   top: 10px;
   right: 170px;
-  background-color: #FF7BF3;
+  background-color: #FF97F6;
 
 }
 .button4:hover {
 
-  border: 10px solid #FF7BF3;
+  border: 10px solid #FF97F6;
   background-color: white;
-  color: #FF7BF3;
+  color: #FF97F6;
 
 }
 
@@ -778,7 +802,7 @@ Dropdown Menu
   padding-bottom: 81px; 
   font-size: 40px;
   margin-left:10px;
-  background: #FF7BF3;
+  background: #FF97F6;;
   border: 10px solid white;
   border-radius: 50%;
   z-index: 1;
@@ -810,9 +834,9 @@ Dropdown Menu
 	
 .dropdown-content .b4:hover {
 	
-  border: 10px solid #FF7BF3;
+  border: 10px solid #FF97F6;
   background-color: white;
-  color: #FF7BF3;
+  color: #FF97F6;
 	
 	}
 
