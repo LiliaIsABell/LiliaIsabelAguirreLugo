@@ -127,7 +127,7 @@ h1:hover{
 }
 
 .more{
-	
+
 	font-size: 50px;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
@@ -140,7 +140,7 @@ h1:hover{
 }
 
 .more:hover{
-	
+
 	font-size: 50px;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
@@ -191,7 +191,7 @@ a:active {
 	font-size: 50px;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
-	
+
 }
 
 .download {
@@ -294,6 +294,7 @@ p {
 }
 
 .intro {
+  color: #303030;
   margin:0px;
   padding: 20px;
   margin-left: 50px;
@@ -319,6 +320,7 @@ p {
 
   margin-top: 50px;
   margin-right: 40px;
+  margin-left: 40px;
   font-size: 30px;
   text-indent: 45px;
   text-align: justify;
@@ -466,7 +468,7 @@ Dropdown Elements
   width: 100%;
   padding: 50px 0;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 
 }
@@ -476,7 +478,7 @@ Dropdown Elements
   width: 100%;
   padding: 50px 0;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 
 
@@ -487,16 +489,17 @@ Dropdown Elements
   width: 100%;
   padding: 50px 0;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 }
 
 #dropdown4 {
   display: none;
+  padding: 50px 0;
   margin-top:50px;
   width: 100%;
   text-align: center;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 }
 
@@ -505,7 +508,7 @@ Dropdown Elements
   width: 100%;
   padding: 50px;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 }
 
@@ -514,16 +517,16 @@ Dropdown Elements
   width: 100%;
   padding: 50px ;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 
 }
 #dropdown7 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 50px 0;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 
 }
 
@@ -532,7 +535,7 @@ Dropdown Elements
   width: 100%;
   padding: 50px 0;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 }
 
 #dropdown9 {
@@ -540,7 +543,7 @@ Dropdown Elements
   width: 100%;
   padding: 50px;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 }
 
 #dropdown10 {
@@ -548,7 +551,7 @@ Dropdown Elements
   width: 100%;
   padding: 50px ;
   text-align: left;
-  background-color: #68D4FF;
+  background-color: #92E0FF;
 }
 
 
@@ -633,7 +636,6 @@ Fangirl
 
 .Fangirl {
   margin-top: 40px;
-  margin-bottom: 200px;
   margin-left: 60px;
   width: 25%;
   transform: scaleX(-1);
@@ -753,7 +755,7 @@ Dropdown Menu
   position: absolute;
   min-width: 160px;
   z-index: 1;
-  
+
 }
 
 .dropdown-content > .b1 {
@@ -763,7 +765,7 @@ Dropdown Menu
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 75px;
-  padding-bottom: 75px; 
+  padding-bottom: 75px;
   font-size: 50px;
   margin-left:10px;
   background: #FF796A;
@@ -778,7 +780,7 @@ Dropdown Menu
   padding-left: 20px;
   padding-right: 0px;
   padding-top: 75px;
-  padding-bottom: 75px;  
+  padding-bottom: 75px;
   font-size: 50px;
   margin-left:10px;
   background: #7AEC96;
@@ -793,7 +795,7 @@ Dropdown Menu
   padding-left: 70px;
   padding-right: 0px;
   padding-top: 75px;
-  padding-bottom: 75px;  
+  padding-bottom: 75px;
   font-size: 50px;
   margin-left:10px;
   background: #B27AFF;
@@ -808,7 +810,7 @@ Dropdown Menu
   padding-left: 18px;
   padding-right: 0px;
   padding-top: 81px;
-  padding-bottom: 81px; 
+  padding-bottom: 81px;
   font-size: 40px;
   margin-left:10px;
   background: #FF97F6;;
@@ -818,35 +820,35 @@ Dropdown Menu
 }
 
 .dropdown-content .b1:hover {
-	
+
   border: 10px solid #FF796A;
   background-color: white;
   color: #FF796A;
-	
+
 	}
-	
+
 .dropdown-content .b2:hover {
-	
+
   border: 10px solid #7AEC96;
   background-color: white;
   color: #7AEC96;
-	
+
 	}
 
 .dropdown-content .b3:hover {
-	
+
   border: 10px solid  #B27AFF;
   background-color: white;
   color:  #B27AFF;
-	
+
 	}
-	
+
 .dropdown-content .b4:hover {
-	
+
   border: 10px solid #FF97F6;
   background-color: white;
   color: #FF97F6;
-	
+
 	}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -855,11 +857,5 @@ Dropdown Menu
 	 padding: 20px;
 	background: none;
 	border:none;
-	
+
 	}
-
-
-
-
-
-
