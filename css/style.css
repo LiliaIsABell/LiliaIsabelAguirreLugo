@@ -16,6 +16,10 @@ body {
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .body3dart{
 background-color: #FF796A;
 }
@@ -81,9 +85,50 @@ border-radius: 3%;
 /************
 Hoverable
 *************/
-
-
+/*
 h1 {
+  margin-left: 40px;
+  margin-top: 150px;
+  font-size: 70px;
+  font-family: "HP Simplified";
+  font-family: 'Trebuchet MS', sans-serif;
+  float: left;
+  padding: 10px;
+  border-radius: 15%;
+  border: 10px solid #68D4FF;
+  background-color: white;
+
+} */
+
+
+/* h1 .tooltiptext {
+  visibility: hidden;
+  font-size: 20px;
+  width: 160px;
+  background-color: white;
+  color: #68D4FF;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  Position the tooltip
+  position: absolute;
+  z-index: 1;
+} */
+
+/* h1:hover .tooltiptext{
+  visibility: visible;
+
+}
+
+h1:hover{
+  color: #white;
+  background-color: #68D4FF;
+  border: 10px solid white;
+  cursor: pointer;
+
+} */
+.scroll {
   margin-left: 40px;
   margin-top: 150px;
   font-size: 70px;
@@ -97,34 +142,13 @@ h1 {
 
 }
 
-
-h1 .tooltiptext {
-  visibility: hidden;
-  font-size: 20px;
-  width: 160px;
-  background-color: white;
-  color: #68D4FF;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-h1:hover .tooltiptext{
-  visibility: visible;
-
-}
-
-h1:hover{
+.scroll:hover{
   color: #white;
   background-color: #68D4FF;
   border: 10px solid white;
   cursor: pointer;
-
 }
+
 
 .more{
 
@@ -368,14 +392,13 @@ Home Page
 
   position: absolute;
   left: 640px;
-  top: 100px;
+  top: 150px;
   width: 35%;
   z-index: 1;
 
 }
 
 .button1 {
-
   top: 50px;
   left: 50px;
   background-color: #FF796A;
@@ -386,13 +409,12 @@ Home Page
   border: 10px solid #FF796A;
   background-color: white;
   color: #FF796A;
-
 }
 
 .button2 {
 
   bottom: 10px;
-  left: 350px;
+  left: 600px;
   background-color: #7AEC96;
 
 }
@@ -404,22 +426,6 @@ Home Page
   color: #7AEC96;
 
 }
-
-/* .button3 {
-
-  bottom: 10px;
-  right: 230px;
-  background-color: #B27AFF;
-
-}
-
-.button3:hover {
-
-  border: 10px solid #B27AFF;
-  background-color: white;
-  color: #B27AFF;
-
-} */
 
 .button4 {
 
@@ -479,7 +485,7 @@ Dropdown Elements
 #dropdown1 {
   display: none;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px;
   text-align: left;
   background-color: #92E0FF;
 
@@ -489,7 +495,7 @@ Dropdown Elements
 #dropdown2 {
   display: none;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px;
   text-align: left;
   background-color: #92E0FF;
 
@@ -500,7 +506,7 @@ Dropdown Elements
 #dropdown3 {
   display: none;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px;
   text-align: left;
   background-color: #92E0FF;
 
@@ -544,9 +550,10 @@ Dropdown Elements
 }
 
 #dropdown8 {
-   display: none;
+  display: none;
+  padding: 50px;
+  margin-top: 50px;
   width: 100%;
-  padding: 50px 0;
   text-align: left;
   background-color: #92E0FF;
 }

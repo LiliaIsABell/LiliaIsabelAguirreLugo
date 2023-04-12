@@ -58,6 +58,7 @@ function fangirl() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+    window.scrollTo("dropdown2");
   }
 }
 
@@ -67,6 +68,7 @@ function idol() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+    window.scrollTo("dropdown3");
   }
 }
 
@@ -76,6 +78,7 @@ function cutScene() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+    window.scrollTo("dropdown4");
   }
 }
 
@@ -85,6 +88,7 @@ function assets() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+    window.scrollTo("dropdown8");
   }
 }
 
