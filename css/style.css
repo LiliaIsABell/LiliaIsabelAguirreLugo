@@ -150,6 +150,7 @@ h1:hover{
 	border: 5px solid white;
 	cursor: pointer;
 }
+
 a {
 
 
@@ -226,26 +227,32 @@ Art Gallery
 *************/
 .art-display {
 
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin-top: 10px;
   margin-left: 400px;
   margin-right: 400px;
-  background-color: white;
+  /* background-color: white;
   border: 5px solid black;
-  border-radius: 20px;
+  border-radius: 20px; */
 
 }
 
-.art-display > div {
-
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  background-color: purple;
-  border-radius: 5px;
-
+ .artBubble {
+   width: 30%;
+   border: 10px solid white;
+   border-radius: 50%;
+   opacity: 0.5;
+   z-index: 1;
 }
+
+.artBubble:hover {
+  opacity:1;
+}
+
+
+
+
 
 /************
 Art Presentation
@@ -284,6 +291,12 @@ h3 {
   text-indent: 20px;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.year {
+  margin-top: 0px;
+  font-family: HappyMarker;
 
 }
 
@@ -788,21 +801,7 @@ Dropdown Menu
   border-radius: 50%;
   z-index: 1;
 }
-/* .dropdown-content > .b3 {
-  display: flex;
-  color: black;
-  text-align: center;
-  padding-left: 70px;
-  padding-right: 0px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  font-size: 50px;
-  margin-left:10px;
-  background: #B27AFF;
-  border: 10px solid white;
-  border-radius: 50%;
-  z-index: 1;
-} */
+
 .dropdown-content >.b4 {
   display: flex;
   color: black;
@@ -834,14 +833,6 @@ Dropdown Menu
   color: #7AEC96;
 
 	}
-
-/* .dropdown-content .b3:hover {
-
-  border: 10px solid  #B27AFF;
-  background-color: white;
-  color:  #B27AFF;
-
-	} */
 
 .dropdown-content .b4:hover {
 
