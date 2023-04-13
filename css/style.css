@@ -12,6 +12,7 @@ body {
   padding: 0px;
   background-color: #68D4FF;
   z-index: 1;
+  font-family: 'HP Simplified';
   font-family: 'Trebuchet MS', sans-serif;
 
 }
@@ -44,9 +45,9 @@ background-color: #B27AFF;
 
 button {
   position: absolute;
-  font-size: 100px;
-  width: 400px;
-  height: 400px;
+  font-size: 480%;
+  width: 20%;
+  height: 40%;
   border: 10px solid white;
   border-radius: 50%;
   z-index: 1;
@@ -398,55 +399,48 @@ Home Page
 .Logo {
 
   position: absolute;
-  left: 640px;
-  top: 150px;
+  left: 31%;
+  top: 18%;
   width: 35%;
   z-index: 1;
 
 }
 
 .button1 {
-  top: 50px;
-  left: 50px;
+  top: 10%;
+  left: 5%;
   background-color: #FF796A;
 
 }
-.button1:hover {
 
+.button1:hover {
   border: 10px solid #FF796A;
   background-color: white;
   color: #FF796A;
 }
 
 .button2 {
-
-  bottom: 10px;
-  left: 600px;
+  bottom: 5%;
+  left: 40%;
   background-color: #7AEC96;
-
 }
 
 .button2:hover {
-
   border: 10px solid #7AEC96;
   background-color: white;
   color: #7AEC96;
-
 }
 
 .button4 {
-
-  top: 200px;
-  right: 170px;
+  top: 20%;
+  right: 10%;
   background-color: #FF97F6;
-
 }
-.button4:hover {
 
+.button4:hover {
   border: 10px solid #FF97F6;
   background-color: white;
   color: #FF97F6;
-
 }
 
 
