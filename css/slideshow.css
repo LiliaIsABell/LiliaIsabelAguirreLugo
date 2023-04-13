@@ -11,10 +11,24 @@
 
 }
 
+.container2 {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
+
+
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
+
+.Slides {
+  display: none;
+}
+
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -101,6 +115,16 @@
   width: 33.33%;
 }
 
+.column3 {
+  float: left;
+  width: 12.5%;
+}
+
+.column4 {
+  float: left;
+  width: 10%;
+}
+
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
@@ -108,5 +132,14 @@
 
 .active,
 .demo:hover {
+  opacity: 1;
+}
+
+.dot {
+  opacity: 0.6;
+}
+
+.active,
+.dot:hover {
   opacity: 1;
 }

@@ -8,10 +8,15 @@ Here is were I will set up the slideshow and dropdown elements
 ******************************************************/
 
 
-
+//
+// Slideshow 1
+//
 let slideIndex = 1;
+let slideIX = 1;
+
 
 showSlides(slideIndex);
+show(slideIX);
 
 
 // Next/previous controls
@@ -42,6 +47,42 @@ function showSlides(n) {
 
 }
 
+
+//
+// Slideshow 2
+//
+// Next/previous controls
+function plus(n) {
+  show(slideIX += n);
+}
+
+// Thumbnail image controls
+function current(n) {
+  show(slideIX = n);
+}
+
+function show(n) {
+  let i;
+  let slides = document.getElementsByClassName("Slides");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) {slideIX = 1}
+  if (n < 1) {slideIX = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIX-1].style.display = "block";
+  dots[slideIX-1].className += " active";
+
+}
+
+
+//
+//Dropdown Elements
+//
 function bodyguard() {
   var x = document.getElementById("dropdown1");
   if (x.style.display === "block") {
@@ -58,7 +99,6 @@ function fangirl() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    window.scrollTo("dropdown2");
   }
 }
 
@@ -68,7 +108,6 @@ function idol() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    window.scrollTo("dropdown3");
   }
 }
 
@@ -78,7 +117,15 @@ function cutScene() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    window.scrollTo("dropdown4");
+  }
+}
+
+function bonus() {
+  var x = document.getElementById("dropdown12");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
 
@@ -130,6 +177,15 @@ function more4() {
 
 function more5() {
   var x = document.getElementById("dropdown10");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function more6() {
+  var x = document.getElementById("dropdown11");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

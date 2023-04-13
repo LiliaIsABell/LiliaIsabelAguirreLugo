@@ -303,6 +303,13 @@ Art Presentation
 
 }
 
+.art > .ref2 {
+
+ margin: 30px;
+ margin-bottom: 200px;
+
+}
+
 
 /************
 Text for Art
@@ -574,6 +581,22 @@ Dropdown Elements
   background-color: #92E0FF;
 }
 
+#dropdown11 {
+  display: none;
+  width: 100%;
+  padding: 50px;
+  text-align: left;
+  background-color: #92E0FF;
+}
+
+#dropdown12 {
+  display: none;
+  width: 100%;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  background-color: #92E0FF;
+}
 
 h2 {
   margin: 0px;
@@ -745,10 +768,17 @@ Gun and Shirt
 }
 
 /************
+Frames
+*************/
+.frame {
+  padding:50px;
+
+}
+
+/************
 References
 *************/
 .moodboard {
-
   float: left;
 
 }
