@@ -17,333 +17,340 @@
 
   </head>
 
-<!-- HTML -->
+<!-- Start -->
 
   <body class="body3dart" onload="showSlides(slideIndex); show(slideIX)">
 
-<div class="dropdown">
-    <a  href="index.html" class="homeButton"> <img  src="assets/images/Mascot.png" alt="Logo" width="30%" > </a>
+    <div class="dropdown">
+      <a  href="index.html" class="homeButton"> <img  src="assets/images/Mascot.png" alt="Logo" width="30%" > </a>
 
-	<div class="dropdown-content">
-  <a href="page_3dArt.html" class="b1" >  3D Art  </a>
+	     <div class="dropdown-content">
+         <a href="page_3dArt.html" class="b1" >  3D Art  </a>
+	       <a href="page_2dArt.html" class="b2" >  2D Art  </a>
+	       <a href="page_aboutMe.html" class="b4" > About Me  </a>
+	     </div>
 
-	<a href="page_2dArt.html" class="b2" >  2D Art  </a>
-
-	<a href="page_aboutMe.html" class="b4" > About Me  </a>
-	</div>
-</div>
+   </div>
 
 
-<!-- BEGINNING -->
-    <div class="art">
+<!-- Art Description -->
+  <div class="art">
+    <h> Market </h>
 
-<h> Market </h>
-
-<p class="intro">
-
-  This project is a remake of a school assignment in which I had to redesign
-  an existing subterranean public space in the Montreal downtown RESO system.
-  The purpose of this assignment was to practice making realistic models and textures,
-  so I made it my goal to model every element of the environment myself.
-  </p>
+      <p class="intro">
+        This project is a remake of a school assignment in which I had to redesign
+        an existing subterranean public space in the Montreal downtown RESO system.
+        The purpose of this assignment was to practice making realistic models and textures,
+        so I made it my goal to model every element of the environment myself.
+      </p>
 
 
  <!-- Slideshow 1-->
 
- <!-- Container for the image gallery -->
-<div class="container">
+        <!-- Container for the image gallery -->
+        <div class="container">
 
-  <!-- Images -->
+          <!-- Images -->
+          <div class="mySlides">
+            <img src="assets/art/Market/Hall.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/Hall.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/1_Restaurant.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/1_Restaurant.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/2_PotionShop.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/2_PotionShop.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/3_IngredientShop.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/3_IngredientShop.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/4_PlantShop.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/4_PlantShop.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/5_OracleShop.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/5_OracleShop.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/6_FoodBooth.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/6_FoodBooth.jpg" style="width:100%" >
-  </div>
+          <div class="mySlides">
+            <img src="assets/art/Market/7_BookShop.jpg" style="width:100%" >
+          </div>
 
-  <div class="mySlides">
-      <img src="assets/art/Market/7_BookShop.jpg" style="width:100%" >
-  </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+              <!-- Thumbnail images -->
+              <div class="row">
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/Hall.jpg" style="width:100%" onclick="currentSlide(1)" alt="Hall">
+                </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/1_Restaurant.jpg" style="width:100%" onclick="currentSlide(2)" alt="Restaurant">
+                </div>
 
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/Hall.jpg" style="width:100%" onclick="currentSlide(1)" alt="Hall">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/1_Restaurant.jpg" style="width:100%" onclick="currentSlide(2)" alt="Restaurant">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/2_PotionShop.jpg" style="width:100%" onclick="currentSlide(3)" alt="Potion shop">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/3_IngredientShop.jpg" style="width:100%" onclick="currentSlide(4)" alt="Ingredient shop">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/4_PlantShop.jpg" style="width:100%" onclick="currentSlide(5)" alt="Plant shop">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/5_OracleShop.jpg" style="width:100%" onclick="currentSlide(6)" alt="Oracle shop">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/6_FoodBooth.jpg" style="width:100%" onclick="currentSlide(7)" alt="Food booth">
-    </div>
-    <div class="column3">
-      <img class="demo cursor" src="assets/art/Market/7_BookShop.jpg" style="width:100%" onclick="currentSlide(8)" alt="Book shop">
-    </div>
-  </div>
-</div>
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/2_PotionShop.jpg" style="width:100%" onclick="currentSlide(3)" alt="Potion shop">
+                </div>
 
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/3_IngredientShop.jpg" style="width:100%" onclick="currentSlide(4)" alt="Ingredient shop">
+                </div>
 
-<!-- Top View Slideshow -->
-<h3> Top View and Close ups </h3>
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/4_PlantShop.jpg" style="width:100%" onclick="currentSlide(5)" alt="Plant shop">
+                </div>
 
-<div class="container2">
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/5_OracleShop.jpg" style="width:100%" onclick="currentSlide(6)" alt="Oracle shop">
+                </div>
 
-  <!-- Images -->
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/6_FoodBooth.jpg" style="width:100%" onclick="currentSlide(7)" alt="Food booth">
+                </div>
 
-  <div class="Slides">
-      <img src="assets/art/Market/1_Restaurant_top.jpg" style="width:100%" >
-  </div>
+                <div class="column3">
+                  <img class="demo cursor" src="assets/art/Market/7_BookShop.jpg" style="width:100%" onclick="currentSlide(8)" alt="Book shop">
+                </div>
+              </div>
 
-  <div class="Slides">
-      <img src="assets/art/Market/2_PotionShop_top.jpg" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/3_IngredientShop_top.jpg" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/4_PlantShop_top.jpg" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/5_OracleShop_top.jpg" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/6_FoodBooth_top.jpg" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/7_BookShop_top.jpg" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/Handles.png" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/Cards.png" style="width:100%" >
-  </div>
-
-  <div class="Slides">
-      <img src="assets/art/Market/Cards2.png" style="width:100%" >
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plus(-1)">&#10094;</a>
-  <a class="next" onclick="plus(1)">&#10095;</a>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/1_Restaurant_top.jpg" style="width:100%" onclick="current(1)" alt="Restaurant">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/2_PotionShop_top.jpg" style="width:100%" onclick="current(2)" alt="Potion shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/3_IngredientShop_top.jpg" style="width:100%" onclick="current(3)" alt="Ingredient shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/4_PlantShop_top.jpg" style="width:100%" onclick="current(4)" alt="Plant shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/5_OracleShop_top.jpg" style="width:100%" onclick="current(5)" alt="Oracle shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/6_FoodBooth_top.jpg" style="width:100%" onclick="current(6)" alt="Food booth">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/7_BookShop_top.jpg" style="width:100%" onclick="current(7)" alt="Book shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/Handles.png" style="width:100%" onclick="current(8)" alt="Book shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/Cards.png" style="width:100%" onclick="current(9)" alt="Book shop">
-    </div>
-    <div class="column4">
-      <img class="dot cursor" src="assets/art/Market/Cards2.png" style="width:100%" onclick="current(10)" alt="Book shop">
-    </div>
-  </div>
-</div>
-
-<!-- Details -->
-
-<div class="section">
-  <p  class="card">
-  Blender
-  <br>
-  Still images
-  <br>
-  2022
-  <br>
-  <p  class="more" onclick="more6()" >  More </p>
-  </p>
-</div>
-
- <div id="dropdown11">
-  <p class="para">
-    Originally, the professor asked us to redesign the space however we wanted
-    whether it would be fantastic or realistic, as long as our models and textures
-    look realistic. Since we were free to do anything, I wanted to make an underground
-    market. Something reminiscent of the spirit town from the movie Spirited Away.
-    However, the teacher later requiered us to make something that could exist in a near
-    future. So, during the summer break, I decided to create my original concept, without
-    the creative and time restrictions.</p>
-    <br><br>
-  <p class="para">
-    For the original project, we worked in teams of two.  We started by going out to find a location we liked and
-    took measurements so that our model have the real life dimensions. Using those measurements,
-    I made the base of the environment and my teammate then built everything else using that base. Luckily,
-    I still had that scene saved on my computer, so I used that same base for my own project
-    to avoid restarting the whole process. </p>
-    <br><br>
-    <p class="para">
-    I began by making a block out of my project, to get and idea
-    of how I wanted everything to be placed and how I wanted certain objects to look like. I then
-    refined by block out by adding details the objects I had already made and by making new simple objects
-    that I knew would be multipling often, such as pots and lanterns. Lastly, before starting to unwrap the UV's, I made
-    the more complex objects, such as plants and books. </p>
-    <br><br>
-    <p class="para">
-    I would like to take a moment to share the influences that I have had during the creative process. My original idea
-    was based of the film Spirited Away. I wanted to have East Asian inspired buildings, food booths and advertisments.
-    But as I kept creating, I started to lean more towards a fantasy and magical concept. A market where you can find
-    crystals, potions, tarot cards and also food. I still took inspiration from East Asia, but I also took inspiration
-    from European style furniture and also Moroccan lanterns. I am aware that it easy to get lost within our
-    creative process, so I wanted to mention from which cultures I know for sure I took concepts from. </p>
-    <br><br>
-    <p class="para">
-    Unwrapping the UV's was a really long process, especially because it was my first time working with many
-    oddly shaped models, such as the plants and flower shaped lamps and lanterns, but I did manage to unwrap them
-    well enough for the textures to look good. Besides that, another minor problem I came across was that I would
-    have duplicated certain objects, and instead of deleting it, unwrapping one and then duplicating it,
-    I would unwrap each object and then realize that my job could have been a lot easier if I had noticed earlier.</p>
-    <br><br>
-    <p class="para">
-    It then came time to texture. ALthough, I succesfully made all the models myself, I did strugle makung certain
-    textures. So I made metal and some marble textures, but for wood, leather and fabrics I used Adobe Substance Painter.
-    </p>
-    <br><br>
-    <p class="para">
-    I would end it here, but that would not be the true end of my project because I did add some animated elements.
-    I included some floating lanterns to add more lighting and for an additional touch of a magic to the environment. I also
-    had a camera animation that would give a tour of the market. Unfortunately, after several days of rendering,
-    my computer crashed. I had to reboot and lost all my progress. From this experience, I learned that, for animations,
-    I should export each frame individualy rather than the whole video, this way, if my computer crashes, I do not lose
-    all my progress. Luckily, during my final semester at Concordia University, I learned several ways to make the rendering
-    process easier on my computer, such as using my graphics card to render and lowering certain render properties.
-    Hopefully it works out the next time I try now knowing this new information.</p>
-	</div>
-
-  <!-- Original Design -->
-
-<div>
-  <a class="scroll" onclick="bonus()" href="#dropdown12" > Original model </a>
-</div>
+        </div>
 
 
-<div id="dropdown12">
+<!-- Slideshow 2 -->
+        <h3> Top View and Close ups </h3>
 
+          <div class="container2">
 
-   <img class="frame" src="assets/art/Market/Original.png" style="width:100%"  alt="Original">
+            <!-- Images -->
+            <div class="Slides">
+              <img src="assets/art/Market/1_Restaurant_top.jpg" style="width:100%" >
+            </div>
 
-   <video width="90%"  controls>
-     <source src="assets/art/Market/Vid_original.mp4" type="video/mp4">
-   </video>
+            <div class="Slides">
+              <img src="assets/art/Market/2_PotionShop_top.jpg" style="width:100%" >
+            </div>
 
-<h2><br><br> I worked on this project with my classmate YaoDongFang Zhao who chose the
-   design, created the model, and placed the lighting and I unwrapped the UV’s,
-  chose, made and applied the textures and did the camera animation. </h2>
+            <div class="Slides">
+              <img src="assets/art/Market/3_IngredientShop_top.jpg" style="width:100%" >
+            </div>
 
- </div>
+            <div class="Slides">
+              <img src="assets/art/Market/4_PlantShop_top.jpg" style="width:100%" >
+            </div>
+
+            <div class="Slides">
+              <img src="assets/art/Market/5_OracleShop_top.jpg" style="width:100%" >
+            </div>
+
+            <div class="Slides">
+              <img src="assets/art/Market/6_FoodBooth_top.jpg" style="width:100%" >
+            </div>
+
+            <div class="Slides">
+              <img src="assets/art/Market/7_BookShop_top.jpg" style="width:100%" >
+            </div>
+
+            <div class="Slides">
+              <img src="assets/art/Market/Handles.png" style="width:100%" >
+            </div>
+
+            <div class="Slides">
+              <img src="assets/art/Market/Cards.png" style="width:100%" >
+            </div>
+
+            <div class="Slides">
+              <img src="assets/art/Market/Cards2.png" style="width:100%" >
+            </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plus(-1)">&#10094;</a>
+              <a class="next" onclick="plus(1)">&#10095;</a>
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/1_Restaurant_top.jpg" style="width:100%" onclick="current(1)" alt="Restaurant">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/2_PotionShop_top.jpg" style="width:100%" onclick="current(2)" alt="Potion shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/3_IngredientShop_top.jpg" style="width:100%" onclick="current(3)" alt="Ingredient shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/4_PlantShop_top.jpg" style="width:100%" onclick="current(4)" alt="Plant shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/5_OracleShop_top.jpg" style="width:100%" onclick="current(5)" alt="Oracle shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/6_FoodBooth_top.jpg" style="width:100%" onclick="current(6)" alt="Food booth">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/7_BookShop_top.jpg" style="width:100%" onclick="current(7)" alt="Book shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/Handles.png" style="width:100%" onclick="current(8)" alt="Book shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/Cards.png" style="width:100%" onclick="current(9)" alt="Book shop">
+                  </div>
+
+                  <div class="column4">
+                    <img class="dot cursor" src="assets/art/Market/Cards2.png" style="width:100%" onclick="current(10)" alt="Book shop">
+                  </div>
+                </div>
+
+          </div>
+
+<!-- Info Card -->
+          <div class="section">
+            <p  class="card">
+              Blender
+              <br>
+              Still images
+              <br>
+              2022
+              <br>
+              <p  class="more" onclick="more6()" >  More </p>
+            </p>
+          </div>
+
+<!-- More Info -->
+          <div id="dropdown11">
+            <p class="para">
+              Originally, the professor asked us to redesign the space however we wanted
+              whether it would be fantastic or realistic, as long as our models and textures
+              look realistic. Since we were free to do anything, I wanted to make an underground
+              market. Something reminiscent of the spirit town from the movie Spirited Away.
+              However, the teacher later requiered us to make something that could exist in a near
+              future. So, during the summer break, I decided to create my original concept, without
+              the creative and time restrictions.</p>
+              <br><br>
+
+            <p class="para">
+              For the original project, we worked in teams of two.  We started by going out to find a location we liked and
+              took measurements so that our model have the real life dimensions. Using those measurements,
+              I made the base of the environment and my teammate then built everything else using that base. Luckily,
+              I still had that scene saved on my computer, so I used that same base for my own project
+              to avoid restarting the whole process. </p>
+              <br><br>
+
+            <p class="para">
+              I began by making a block out of my project, to get and idea
+              of how I wanted everything to be placed and how I wanted certain objects to look like. I then
+              refined by block out by adding details the objects I had already made and by making new simple objects
+              that I knew would be multipling often, such as pots and lanterns. Lastly, before starting to unwrap the UV's, I made
+              the more complex objects, such as plants and books. </p>
+              <br><br>
+
+            <p class="para">
+              I would like to take a moment to share the influences that I have had during the creative process. My original idea
+              was based of the film Spirited Away. I wanted to have East Asian inspired buildings, food booths and advertisments.
+              But as I kept creating, I started to lean more towards a fantasy and magical concept. A market where you can find
+              crystals, potions, tarot cards and also food. I still took inspiration from East Asia, but I also took inspiration
+              from European style furniture and also Moroccan lanterns. I am aware that it easy to get lost within our
+              creative process, so I wanted to mention from which cultures I know for sure I took concepts from. </p>
+              <br><br>
+
+            <p class="para">
+              Unwrapping the UV's was a really long process, especially because it was my first time working with many
+              oddly shaped models, such as the plants and flower shaped lamps and lanterns, but I did manage to unwrap them
+              well enough for the textures to look good. Besides that, another minor problem I came across was that I would
+              have duplicated certain objects, and instead of deleting it, unwrapping one and then duplicating it,
+              I would unwrap each object and then realize that my job could have been a lot easier if I had noticed earlier.</p>
+              <br><br>
+
+            <p class="para">
+              It then came time to texture. ALthough, I succesfully made all the models myself, I did strugle makung certain
+              textures. So I made metal and some marble textures, but for wood, leather and fabrics I used Adobe Substance Painter.</p>
+              <br><br>
+
+            <p class="para">
+              I would end it here, but that would not be the true end of my project because I did add some animated elements.
+              I included some floating lanterns to add more lighting and for an additional touch of a magic to the environment. I also
+              had a camera animation that would give a tour of the market. Unfortunately, after several days of rendering,
+              my computer crashed. I had to reboot and lost all my progress. From this experience, I learned that, for animations,
+              I should export each frame individualy rather than the whole video, this way, if my computer crashes, I do not lose
+              all my progress. Luckily, during my final semester at Concordia University, I learned several ways to make the rendering
+              process easier on my computer, such as using my graphics card to render and lowering certain render properties.
+              Hopefully it works out the next time I try now knowing this new information.</p>
+	        </div>
+
+<!-- Original Design -->
+          <div>
+            <a class="scroll" onclick="bonus()" href="#dropdown12" > Original model </a>
+          </div>
+
+          <div id="dropdown12">
+            <img class="frame" src="assets/art/Market/Original.png" style="width:100%"  alt="Original">
+
+            <video width="90%"  controls>
+              <source src="assets/art/Market/Vid_original.mp4" type="video/mp4">
+            </video>
+
+            <h2><br><br> I worked on this project with my classmate YaoDongFang Zhao who chose the
+              design, created the model, and placed the lighting and I unwrapped the UV’s,
+              chose, made and applied the textures and did the camera animation. </h2>
+          </div>
+
 
 <!-- References -->
+          <h3> Work Process </h3>
 
-<h3> Work Process </h3>
-<h2> Location photos </h2>
-<div class="ref">
-<img class="moodboard" src="assets/art/Market/WP_Image1.jpg" style="width:57%" alt="Pic 1"  >
-<img src="assets/art/Market/WP_Image2.png" style="width:43%" alt="Pic 2"  >
-</div>
+            <h2> Location photos </h2>
+              <div class="ref">
+                <img class="moodboard" src="assets/art/Market/WP_Image1.jpg" style="width:57%" alt="Pic 1"  >
+                <img src="assets/art/Market/WP_Image2.png" style="width:43%" alt="Pic 2"  >
+              </div>
 
-<h2> Blockout </h2>
-<div class="ref">
-  <video width="70%"  controls>
-    <source src="assets/art/Market/Vid_Blockout.mp4" type="video/mp4">
-  </video>
-</div>
+            <h2> Blockout </h2>
+              <div class="ref">
+                <video width="70%"  controls>
+                  <source src="assets/art/Market/Vid_Blockout.mp4" type="video/mp4">
+                </video>
+              </div>
 
-<h2> Detailing </h2>
-<div class="ref">
-  <video width="70%"  controls>
-    <source src="assets/art/Market/Vid_Model.mp4" type="video/mp4">
-  </video>
-</div>
+            <h2> Detailing </h2>
+              <div class="ref">
+                <video width="70%"  controls>
+                  <source src="assets/art/Market/Vid_Model.mp4" type="video/mp4">
+                </video>
+              </div>
 
-<h2> Finished modelling </h2>
-<div class="ref">
-  <video width="70%"  controls>
-    <source src="assets/art/Market/Vid_BeforeDetails.mp4" type="video/mp4">
-  </video>
-</div>
+            <h2> Finished modelling </h2>
+              <div class="ref">
+                <video width="70%"  controls>
+                  <source src="assets/art/Market/Vid_BeforeDetails.mp4" type="video/mp4">
+                </video>
+              </div>
 
-
-
-<h2> Reference images </h2>
-<div class="ref2">
-<img  class="moodboard" src="assets/art/Market/WP_SpiritedAway1.jpg" style="width:45%" alt="SA 1"  >
-<img   src="assets/art/Market/WP_SpiritedAway2.jpg" style="width:50%" alt="SA 2"  >
-</div>
+            <h2> Reference images </h2>
+              <div class="ref2">
+                <img  class="moodboard" src="assets/art/Market/WP_SpiritedAway1.jpg" style="width:45%" alt="SA 1"  >
+                <img   src="assets/art/Market/WP_SpiritedAway2.jpg" style="width:50%" alt="SA 2"  >
+              </div>
 
 
     </div>
 
-<!-- END -->
-
-
   </body>
-
+<!-- END -->
 </html>

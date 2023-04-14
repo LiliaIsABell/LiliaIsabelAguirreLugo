@@ -18,196 +18,188 @@
 
   </head>
 
-<!-- HTML -->
+<!-- Start -->
 
   <body class="body2dart" onload="showSlides(slideIndex)">
 
-<div class="dropdown">
-    <a  href="index.html" class="homeButton" > <img  src="assets/images/Mascot.png" alt="Logo" width="30%" > </a>
+    <div class="dropdown">
+      <a  href="index.html" class="homeButton" > <img  src="assets/images/Mascot.png" alt="Logo" width="30%" > </a>
 
-	<div class="dropdown-content">
-  <a href="page_3dArt.html" class="b1" >  3D Art  </a>
+	     <div class="dropdown-content">
+         <a href="page_3dArt.html" class="b1" >  3D Art  </a>
+	       <a href="page_2dArt.html" class="b2" >  2D Art  </a>
+	       <a href="page_aboutMe.html" class="b4" > About Me  </a>
+	     </div>
 
-	<a href="page_2dArt.html" class="b2" >  2D Art  </a>
-
-	<a href="page_aboutMe.html" class="b4" > About Me  </a>
-	</div>
-</div>
+    </div>
 
 
-<!-- BEGINNING -->
+<!-- Art Description -->
     <div class="art">
+      <h> Hungry Hustlers </h>
 
-<h> Hungry Hustlers </h>
+        <p class="intro">
+          During the fall of 2022, I worked on Hungry Hustlers, a survival game in which the player plays
+          as an office employee who needs to keep his energy up while conpleting his tasks by sucking up the food
+          around him. </p>
 
-<p class="intro">
-
-  During the fall of 2022, I worked on Hungry Hustlers, a survival game in which the player plays
-  as an office employee who needs to keep his energy up while conpleting his tasks by sucking up the food
-  around him. </p>
 
  <!-- Slideshow -->
 
- <!-- Container for the image gallery -->
-<div class="container">
+          <!-- Container for the image gallery -->
+          <div class="container">
 
-  <!-- Images -->
+            <!-- Images -->
+            <div class="mySlides">
+              <img src="assets/art/HungryHustlers/HH_game.png" style="width:100%" >
+            </div>
 
-  <div class="mySlides">
-      <img src="assets/art/HungryHustlers/HH_game.png" style="width:100%" >
-  </div>
+            <div class="mySlides">
+              <img src="assets/art/HungryHustlers/HH_lose.png" style="width:100%" >
+            </div>
 
-  <div class="mySlides">
-      <img src="assets/art/HungryHustlers/HH_lose.png" style="width:100%" >
-  </div>
+            <div class="mySlides">
+              <img src="assets/art/HungryHustlers/HH_win.png" style="width:100%" >
+            </div>
 
-  <div class="mySlides">
-      <img src="assets/art/HungryHustlers/HH_win.png" style="width:100%" >
-  </div>
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column2">
+                <img class="demo cursor" src="assets/art/HungryHustlers/HH_game.png" style="width:100%" onclick="currentSlide(1)" alt="Game">
+              </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <div class="column2">
+                <img class="demo cursor" src="assets/art/HungryHustlers/HH_lose.png" style="width:100%" onclick="currentSlide(2)" alt="Lose">
+              </div>
 
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column2">
-      <img class="demo cursor" src="assets/art/HungryHustlers/HH_game.png" style="width:100%" onclick="currentSlide(1)" alt="Game">
-    </div>
-    <div class="column2">
-      <img class="demo cursor" src="assets/art/HungryHustlers/HH_lose.png" style="width:100%" onclick="currentSlide(2)" alt="Lose">
-    </div>
-    <div class="column2">
-      <img class="demo cursor" src="assets/art/HungryHustlers/HH_win.png" style="width:100%" onclick="currentSlide(3)" alt="Win">
-    </div>
+              <div class="column2">
+                <img class="demo cursor" src="assets/art/HungryHustlers/HH_win.png" style="width:100%" onclick="currentSlide(3)" alt="Win">
+              </div>
+            </div>
 
+          </div>
 
-  </div>
-</div>
-<div class="section">
-  <p  class="card">
-  GIMP
-  <br>
-  Game unavailable :(
-  <br>
-  2022
-  <br>
-  <p  class="more" onclick="more5()" >  More </p>
-  </p>
-</div>
+<!-- Info Card -->
+          <div class="section">
+            <p  class="card">
+              GIMP
+              <br>
+              Game unavailable :(
+              <br>
+              2022
+              <br>
+              <p  class="more" onclick="more5()" >  More </p>
+            </p>
+          </div>
 
- <div id="dropdown10">
-<p class="para">
-	This was my very first game jam and I was not
-	to sure what to expect. The theme was Hunger and our limitation was that
-	we could only use one button to play. Our main idea was to have something
-	move around randomly as it tries to eat the things around it. We brainstormed
-	a couple of settings and settled on an office space. People are often overworked
-	to the point of only living off of snacks and we thought this was a fun and relatable
-	concept to work with.</p>
-	<br><br>
-	<p class="para">
-	For the character design, I looked at old flashgames that I played as a kid, to see how they made
-	objects recognisable but simply made. I learned that you can never go wrong with
-	basic shapes, so I stacked a square on a parralelogram and added lines and color to
-	indicate what were the legs, arms, eyes and hair. I designed the player first and then
-	duplicated him to make the rest of the characters. At some point, I had a bit of a dilemma.
-	I noticed that two of the characters were too dark to be seen, I wanted to include characters
-	with dark skin, but not being able to see their faces clearly would be a poor design choice.
-	In the end, I decided to keep them as they were since it is common for people with dark skin
-	to not show on photos. But I still wonder if my color choice was too dark or if there was something
-	else I could have changed, like making the eyes a lighter color.</p>
-	<br><br>
-	<p class="para">
-	For the design of the office, i decided to set it up similarly to that of The Office
-	since I happenned to be re-watching the show. Surprisingly, I had a hard time deciding
-	on the colors for the room and the furniture. My work is usually very colorful, so I was
-	frustrated at the lack of color there was in the photos of offices I looked up, but I stuck
-	to my moodboard and created assets that I enjoyed looking at.
-	</p>
-	<br><br>
-	<p class="para">
-	Since this was my first project, I had a lot of set backs. One was, that I wasn't able to use github,
-	meaning that I could not put my files on Unity and verify if they looked well. So if I forgot to export
-	my files as PNGs or would forget to crop them correcty, I could only fixed them after my teammates noticed,
-	but I eventually got better I checking my stuff before sending. Also,I learned that, anytime I transformed a
-	layer on GIMP, the quality would lower, but luckily, since the assets were so small, it wasn't noticeable. </p>
-	<br><br>
-	<p class="para">
-    I made this game for a Game Jam in a Game Design class with
-    Margaret (Meg) Summers who did the programming and Che Tan who
-	made the sfx, music and helped with the programming.
-	</p>
-</div>
+<!-- More Info -->
+          <div id="dropdown10">
+            <p class="para">
+	            This was my very first game jam and I was not
+	            to sure what to expect. The theme was Hunger and our limitation was that
+	            we could only use one button to play. Our main idea was to have something
+	            move around randomly as it tries to eat the things around it. We brainstormed
+	            a couple of settings and settled on an office space. People are often overworked
+              to the point of only living off of snacks and we thought this was a fun and relatable
+	            concept to work with.</p>
+	            <br><br>
+
+	          <p class="para">
+	            For the character design, I looked at old flashgames that I played as a kid, to see how they made
+	            objects recognisable but simply made. I learned that you can never go wrong with
+	            basic shapes, so I stacked a square on a parralelogram and added lines and color to
+	            indicate what were the legs, arms, eyes and hair. I designed the player first and then
+	            duplicated him to make the rest of the characters. At some point, I had a bit of a dilemma.
+	            I noticed that two of the characters were too dark to be seen, I wanted to include characters
+	            with dark skin, but not being able to see their faces clearly would be a poor design choice.
+	            In the end, I decided to keep them as they were since it is common for people with dark skin
+	            to not show on photos. But I still wonder if my color choice was too dark or if there was something
+	            else I could have changed, like making the eyes a lighter color.</p>
+	            <br><br>
+
+	          <p class="para">
+	            For the design of the office, i decided to set it up similarly to that of The Office
+	            since I happenned to be re-watching the show. Surprisingly, I had a hard time deciding
+	            on the colors for the room and the furniture. My work is usually very colorful, so I was
+	            frustrated at the lack of color there was in the photos of offices I looked up, but I stuck
+	            to my moodboard and created assets that I enjoyed looking at.</p>
+	            <br><br>
+
+	          <p class="para">
+	            Since this was my first project, I had a lot of set backs. One was, that I wasn't able to use github,
+	            meaning that I could not put my files on Unity and verify if they looked well. So if I forgot to export
+	            my files as PNGs or would forget to crop them correcty, I could only fixed them after my teammates noticed,
+	            but I eventually got better I checking my stuff before sending. Also,I learned that, anytime I transformed a
+	            layer on GIMP, the quality would lower, but luckily, since the assets were so small, it wasn't noticeable. </p>
+	            <br><br>
+
+	          <p class="para">
+              I made this game for a Game Jam in a Game Design class with
+              Margaret (Meg) Summers who did the programming and Che Tan who
+	            made the sfx, music and helped with the programming.</p>
+
+          </div>
 
 <!-- Characters, Objects, Furniture -->
+          <div>
+            <a class="scroll" onclick="assets()" href="#dropdown8"> All assets </a>
+          </div>
 
-<div>
-<a class="scroll" onclick="assets()" href="#dropdown8"> All assets </a>
-</div>
+          <div id="dropdown8">
+            <h2> Characters <h2>
+	             <img src="assets/art/HungryHustlers/Player.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Boss.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Coworker2.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Coworker3.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Coworker4.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Coworker5.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Coworker6.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/Receptionist.png" style="width:20%">
 
+            <h2> Food <h2>
+	             <img src="assets/art/HungryHustlers/Donut.png" style="width:17%">
+	             <img src="assets/art/HungryHustlers/Chips.png" style="width:17%">
+	             <img src="assets/art/HungryHustlers/Chocolate.png" style="width:17%">
+	             <img src="assets/art/HungryHustlers/Energydrink.png" style="width:17%">
+	             <img src="assets/art/HungryHustlers/Soda.png" style="width:17%">
 
-  <div id="dropdown8">
-  <h2> Characters <h2>
-	<img src="assets/art/HungryHustlers/Player.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Boss.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Coworker2.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Coworker3.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Coworker4.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Coworker5.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Coworker6.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/Receptionist.png" style="width:20%">
+            <h2> Background elements </h2>
+	             <img src="assets/art/HungryHustlers/bg_Door.png" style="width:25%">
+	             <img src="assets/art/HungryHustlers/bg_Reception.png" style="width:25%">
+	             <img src="assets/art/HungryHustlers/bg_Desk2.0.png" style="width:25%">
+	             <img src="assets/art/HungryHustlers/bg_Printer.png" style="width:25%">
+	             <img src="assets/art/HungryHustlers/bg_Vendingmachine.png" style="width:17%">
+	             <img src="assets/art/HungryHustlers/bg_Drawers.png" style="width:10%">
 
-  <h2> Food <h2>
-	<img src="assets/art/HungryHustlers/Donut.png" style="width:17%">
-	<img src="assets/art/HungryHustlers/Chips.png" style="width:17%">
-	<img src="assets/art/HungryHustlers/Chocolate.png" style="width:17%">
-	<img src="assets/art/HungryHustlers/Energydrink.png" style="width:17%">
-	<img src="assets/art/HungryHustlers/Soda.png" style="width:17%">
-
-  <h2> Background elements </h2>
-	<img src="assets/art/HungryHustlers/bg_Door.png" style="width:25%">
-	<img src="assets/art/HungryHustlers/bg_Reception.png" style="width:25%">
-	<img src="assets/art/HungryHustlers/bg_Desk2.0.png" style="width:25%">
-	<img src="assets/art/HungryHustlers/bg_Printer.png" style="width:25%">
-	<img src="assets/art/HungryHustlers/bg_Vendingmachine.png" style="width:17%">
-	<img src="assets/art/HungryHustlers/bg_Drawers.png" style="width:10%">
-
-  <h2> Obstacles </h2>
-	<img src="assets/art/HungryHustlers/ob_Couch.png" style="width:35%">
-	<img src="assets/art/HungryHustlers/ob_WaterCooler.png" style="width:15%">
-	<img src="assets/art/HungryHustlers/ob_Paper.png" style="width:10%">
-	<img src="assets/art/HungryHustlers/ob_File.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/ob_Aloe1.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/ob_Aloe2.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/ob_Palm1.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/ob_Palm2.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/ob_Palm3.png" style="width:20%">
-	<img src="assets/art/HungryHustlers/ob_Palm4.png" style="width:20%">
-
-
-
-  </div>
+            <h2> Obstacles </h2>
+	             <img src="assets/art/HungryHustlers/ob_Couch.png" style="width:35%">
+	             <img src="assets/art/HungryHustlers/ob_WaterCooler.png" style="width:15%">
+	             <img src="assets/art/HungryHustlers/ob_Paper.png" style="width:10%">
+	             <img src="assets/art/HungryHustlers/ob_File.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/ob_Aloe1.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/ob_Aloe2.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/ob_Palm1.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/ob_Palm2.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/ob_Palm3.png" style="width:20%">
+	             <img src="assets/art/HungryHustlers/ob_Palm4.png" style="width:20%">
+          </div>
 
 
 <!-- References -->
 
-<h3> Work Process </h3>
-<h2> Moodboard </h2>
+          <h3> Work Process </h3>
+            <h2> Moodboard </h2>
 
-<div class="ref">
-<img class="moodboard" src="assets/art/HungryHustlers/Moodboard.jpeg" style="width:50%" alt="Moodboard"  >
-
-</div>
-
+              <div class="ref">
+                <img class="moodboard" src="assets/art/HungryHustlers/Moodboard.jpeg" style="width:50%" alt="Moodboard"  >
+              </div>
 
     </div>
 
-
-<!-- END -->
-
-
   </body>
-
+<!-- END -->
 </html>
