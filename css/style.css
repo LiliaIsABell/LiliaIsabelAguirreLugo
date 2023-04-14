@@ -22,18 +22,20 @@ html{
 }
 
 .body3dart{
+  margin: 0%;
+  padding: 0%;
 background-color: #FF796A;
 }
 
 .body2dart{
+  margin: 0%;
+  padding: 0%;
 background-color: #7AEC96;
 }
 
-.bodyCV{
-background-color: #B27AFF;
-}
-
 .bodyAM{
+  margin: 0%;
+  padding: 0%;
   background-color: #FF97F6;
 }
 
@@ -164,6 +166,40 @@ a:active {
 	cursor: pointer;
 }
 
+.inText {
+  font-weight: bold;
+	padding: none;
+	border-radius: none;
+	border: none;
+	background: none;
+  font-family: "HP Simplified";
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.inText:link {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+.inText:visited {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+.inText:hover {
+	color: white;
+	background-color: #68D4FF;
+	border: none;
+	cursor: pointer;
+}
+
+.inText:active {
+  color: white;
+  background-color: #68D4FF;
+  border: none;
+  cursor: pointer;
+}
+
 .noB {
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
@@ -197,12 +233,12 @@ font-family: HappyMarker;
 
 .linkBox {
   position: absolute;
-  display: inline-block;
-  float: right;
+  padding-top:5%;
+  padding-bottom:5%;
+  font-size:180%;
   text-align: right;
-  margin-right: 0%;
-  margin-left: 49%;
-  margin-top: 15%;
+  float: right;
+  margin-left: 85%;
   z-index: 2;
 }
 
@@ -220,7 +256,6 @@ font-family: HappyMarker;
   padding-bottom: 35%;
   padding-left: 10%;
   padding-right: 8%;
-  font-size: 180%;
   background: #B27AFF;
   border: 10px solid white;
   border-radius: 50%;
@@ -234,7 +269,6 @@ font-family: HappyMarker;
   padding-top: 35%;
   padding-bottom: 35%;
   padding-right: 40%;
-  font-size: 180%;
   background: #B27AFF;
   border: 10px solid white;
   border-radius: 50%;
@@ -249,7 +283,6 @@ font-family: HappyMarker;
   padding-bottom: 35%;
   padding-left: 11%;
   padding-right: 20%;
-  font-size: 180%;
   background: #B27AFF;
   border: 10px solid white;
   border-radius: 50%;
@@ -587,7 +620,7 @@ Dropdown Menu
   display:none;
   position: absolute;
   min-width: 10%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content > .b1 {
@@ -602,7 +635,7 @@ Dropdown Menu
   background: #FF796A;
   border: 10px solid white;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content > .b2 {
@@ -617,7 +650,7 @@ Dropdown Menu
   background: #7AEC96;
   border: 10px solid white;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content >.b4 {
@@ -631,7 +664,7 @@ Dropdown Menu
   background: #FF97F6;;
   border: 10px solid white;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content .b1:hover {
