@@ -88,13 +88,13 @@ Hoverable
 *************/
 
 .scroll {
-  margin-left: 40px;
-  margin-top: 150px;
-  font-size: 70px;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  font-size: 300%;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
   float: left;
-  padding: 10px;
+  padding: 1%;
   border-radius: 15%;
   border: 10px solid #68D4FF;
   background-color: white;
@@ -110,21 +110,18 @@ Hoverable
 
 
 .more{
-
-	font-size: 50px;
+	font-size: 280%;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
 	font-weight: bold;
 	float: left;
-	padding: 5px;
+	padding: 0.3%;
 	border-radius: 15%;
 	border: 5px solid #68D4FF;
 	background-color: white;
 }
 
 .more:hover{
-
-	font-size: 50px;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
 	font-weight: bold;
@@ -136,7 +133,7 @@ Hoverable
 
 a {
 	font-weight: bold;
-	padding: 1%;
+	padding: 0.3%;
 	border-radius: 15%;
 	border: 5px solid #68D4FF;
 	background-color: white;
@@ -168,11 +165,8 @@ a:active {
 }
 
 .noB {
-
-	font-size: 50px;
 	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
-
 }
 
 .CV{
@@ -195,11 +189,9 @@ font-family: HappyMarker;
 }
 
 .download:hover {
-
   border: 10px solid #68D4FF;
   background-color: white;
   color: #68D4FF;
-
 }
 
 
@@ -218,7 +210,6 @@ font-family: HappyMarker;
   display: flex;
   flex-direction: column;
   z-index: 2;
-
 }
 
 .links > .l1 {
@@ -286,7 +277,7 @@ Art Gallery
 }
 
  .artBubble {
-   width: 30%;
+   width: 29.2%;
    border: 10px solid white;
    border-radius: 50%;
    opacity: 0.5;
@@ -318,12 +309,12 @@ Art Presentation
 }
 
  .art > .ref {
-  margin: 30px;
+  margin: 3%;
 }
 
 .art > .ref2 {
- margin: 30px;
- margin-bottom: 200px;
+ margin: 3%;
+ margin-bottom: 10%;
 }
 
 
@@ -331,11 +322,10 @@ Art Presentation
 Text for Art
 *************/
 h3 {
-  margin-left: 40px;
-  margin-top: 150px;
-  margin-bottom: 50px;
-  font-size: 60px;
-  text-indent: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  font-size: 300%;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
 
@@ -344,23 +334,22 @@ h3 {
 .year {
   margin-top: 0%;
   font-family: HappyMarker;
-
 }
 
 p {
-  margin: 0px;
+  margin: 0%;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
 }
 
 .intro {
   color: #303030;
-  margin:0px;
-  padding: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: 30px;
-  text-indent: 45px;
+  margin:0%;
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 170%;
+  text-indent: 10%;
   text-align: center;
   line-height: 2;
 }
@@ -377,12 +366,10 @@ p {
 }
 
 .text {
-
-  margin-top: 50px;
-  margin-right: 40px;
-  margin-left: 40px;
-  font-size: 30px;
-  text-indent: 45px;
+  margin: 5%;
+  margin-bottom: 10%;
+  font-size: 170%;
+  text-indent: 5%;
   text-align: justify;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
@@ -390,17 +377,14 @@ p {
 }
 
 .section {
-  margin: 40px;
-  margin-bottom: 10px;
-  font-size: 30px;
+  margin: 4%;
 }
 
 .card {
-font-size: 50px;
+font-size: 280%;
 font-family: "HP Simplified";
 font-family: 'Trebuchet MS', sans-serif;
 font-weight: bold;
-
 }
 
 
@@ -412,20 +396,17 @@ Home Page
 *************/
 
 .Logo {
-
   position: absolute;
   left: 31%;
   top: 18%;
   width: 35%;
   z-index: 1;
-
 }
 
 .button1 {
   top: 10%;
   left: 5%;
   background-color: #FF796A;
-
 }
 
 .button1:hover {
@@ -463,74 +444,39 @@ Home Page
 
 
 /************
-Page: About Me
-*************/
-h4 {
-  font-weight: bold;
-  font-family: "HP Simplified";
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 40px;
-}
-
-h5 {
-  font-weight: bold;
-  font-family: "HP Simplified";
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 30px;
-
-}
-
-h6 {
-  float: left;
-  margin: 0px;
-  margin-right: 20px;
-  font-size: 30px;
-  font-family: "HP Simplified";
-  font-family: 'Trebuchet MS', sans-serif;
-}
-
-
-
-
-
-/************
 Dropdown Elements
 *************/
 
 #dropdown1 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 5%;
+  margin-bottom: 5%;
   text-align: left;
   background-color: #92E0FF;
-
-
 }
 
 #dropdown2 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 5%;
+  margin-bottom: 5%;
   text-align: left;
   background-color: #92E0FF;
-
-
-
 }
 
 #dropdown3 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 5%;
   text-align: left;
   background-color: #92E0FF;
-
 }
 
 #dropdown4 {
   display: none;
-  padding: 50px 0;
-  margin-top:50px;
+  padding: 5% 0;
+  margin-top:5%;
   width: 100%;
   text-align: center;
   background-color: #92E0FF;
@@ -540,7 +486,8 @@ Dropdown Elements
 #dropdown5 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 5%;
+  margin-bottom: 5%;
   text-align: left;
   background-color: #92E0FF;
 
@@ -549,7 +496,7 @@ Dropdown Elements
 #dropdown6 {
   display: none;
   width: 100%;
-  padding: 50px ;
+  padding: 5%;
   text-align: left;
   background-color: #92E0FF;
 
@@ -558,7 +505,8 @@ Dropdown Elements
 #dropdown7 {
   display: none;
   width: 100%;
-  padding: 50px 0;
+  padding: 5% 0;
+  margin-bottom: 5%;
   text-align: left;
   background-color: #92E0FF;
 
@@ -566,8 +514,8 @@ Dropdown Elements
 
 #dropdown8 {
   display: none;
-  padding: 50px;
-  margin-top: 50px;
+  padding: 5%;
+  margin-top: 5%;
   width: 100%;
   text-align: left;
   background-color: #92E0FF;
@@ -576,7 +524,7 @@ Dropdown Elements
 #dropdown9 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 5%;
   text-align: left;
   background-color: #92E0FF;
 }
@@ -584,7 +532,8 @@ Dropdown Elements
 #dropdown10 {
   display: none;
   width: 100%;
-  padding: 50px ;
+  padding: 5%;
+  margin-bottom: 5%;
   text-align: left;
   background-color: #92E0FF;
 }
@@ -592,7 +541,8 @@ Dropdown Elements
 #dropdown11 {
   display: none;
   width: 100%;
-  padding: 50px;
+  padding: 5%;
+  margin-bottom: 5%;
   text-align: left;
   background-color: #92E0FF;
 }
@@ -600,17 +550,16 @@ Dropdown Elements
 #dropdown12 {
   display: none;
   width: 100%;
-  margin-top: 50px;
-  padding: 50px;
+  margin-top: 5%;
+  padding: 5%;
   text-align: center;
   background-color: #92E0FF;
 }
 
 h2 {
-  margin: 0px;
-  margin-left: 10px;
-  padding: 20px;
-  font-size: 30px;
+  margin: 0%;
+  padding: 3%;
+  font-size: 200%;
   font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
 }
@@ -639,7 +588,6 @@ Dropdown Menu
   position: absolute;
   min-width: 10%;
   z-index: 1;
-
 }
 
 .dropdown-content > .b1 {
@@ -656,6 +604,7 @@ Dropdown Menu
   border-radius: 50%;
   z-index: 1;
 }
+
 .dropdown-content > .b2 {
   display: flex;
   color: black;
@@ -724,7 +673,7 @@ Bodyguard
 *************/
 
 .Bodyguard {
-  margin-top: 50px;
+  margin-top: 5%;
   width: 30%;
   transform: scaleX(-1);
   z-index: -1;
@@ -733,48 +682,42 @@ Bodyguard
 
 
 .Idle {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 2%;
   width: 40%;
-
 }
 
 .RunO {
-  margin-top: 30px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-bottom: 2%;
   width: 90%;
-
 }
 
 .RunR {
-  margin-top: 30px;
-  margin-left: 40px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-bottom: 2%;
   width: 90%;
-
 }
 
 .singlePose {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 2%;
   width: 15%;
-
 }
 
 .rejectedRun {
-  margin-top: 30px;
+  margin-top: 3%;
   width: 100%;
-
 }
 
 .rejectedIdle {
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 5%;
+  margin-left: 3%;
   width: 40%;
-
 }
 
 /************
@@ -782,43 +725,38 @@ Fangirl
 *************/
 
 .Fangirl {
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-top: 4%;
+  margin-left: 6%;
   width: 25%;
   transform: scaleX(-1);
   float: left;
-
 }
 
 .Run2 {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 2%;
   width: 95%;
-
 }
 
 .Climb {
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 2%;
   width: 40%;
-
 }
 
 .Hit {
-  margin-top: 30px;
-  margin-left: 80px;
-  margin-bottom: 20px;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 2%;
   width: 10%;
-
 }
 
 .Fall {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 3%;
+  margin-left: 3%;
   width: 80%;
-
 }
 
 /************
@@ -826,57 +764,49 @@ Idol
 *************/
 
 .Idol {
-  margin-left: 30px;
-  margin-bottom: 80px;
+  margin-left: 3%;
+  margin-bottom: 8%;
   width: 25%;
   transform: scaleX(-1);
   float: left;
-
 }
 
 .Dance {
-  margin-top: 50px;
-  margin-left: 20px;
+  margin-top: 5%;
+  margin-left: 2%;
   width: 100%;
-
 }
 
-
 .Hit2 {
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 5%;
+  margin-left: 3%;
   width: 50%;
-
 }
 
 /************
 Gun and Shirt
 *************/
 .Gun {
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-bottom: 100px;
+  margin-top: 5%;
+  margin-left: 3%;
   width: 30%;
   float: left;
-
 }
+
 .Shirt {
-  margin-top: 50px;
-  margin-bottom: 250px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
   width: 15%;
   float: left;
-
-
 }
 
 /************
 Frames
 *************/
 .frame {
-  padding:50px;
-
+  padding:5%;
 }
 
 /************
@@ -884,5 +814,4 @@ References
 *************/
 .moodboard {
   float: left;
-
 }
