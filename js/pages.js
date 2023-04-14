@@ -8,9 +8,9 @@ Here is were I will set up the slideshow and dropdown elements
 ******************************************************/
 
 
-//
-// Slideshow 1
-//
+/*****************
+Slideshow 1
+******************/
 let slideIndex = 1;
 let slideIX = 1;
 
@@ -48,9 +48,10 @@ function showSlides(n) {
 }
 
 
-//
-// Slideshow 2
-//
+/*****************
+Slideshow 2
+******************/
+
 // Next/previous controls
 function plus(n) {
   show(slideIX += n);
@@ -80,9 +81,10 @@ function show(n) {
 }
 
 
-//
-//Dropdown Elements
-//
+/*****************
+Dropdown Elements
+******************/
+// Bodyguard
 function bodyguard() {
   var x = document.getElementById("dropdown1");
   if (x.style.display === "block") {
@@ -92,7 +94,7 @@ function bodyguard() {
   }
 }
 
-
+// Fangirl
 function fangirl() {
   var x = document.getElementById("dropdown2");
   if (x.style.display === "block") {
@@ -102,6 +104,7 @@ function fangirl() {
   }
 }
 
+// Idol
 function idol() {
   var x = document.getElementById("dropdown3");
   if (x.style.display === "block") {
@@ -111,6 +114,7 @@ function idol() {
   }
 }
 
+// Sprout About CutScene
 function cutScene() {
   var x = document.getElementById("dropdown4");
   if (x.style.display === "block") {
@@ -120,6 +124,7 @@ function cutScene() {
   }
 }
 
+// Market Original Model
 function bonus() {
   var x = document.getElementById("dropdown12");
   if (x.style.display === "block") {
@@ -129,6 +134,7 @@ function bonus() {
   }
 }
 
+// Hungry Hustlers Assets
 function assets() {
   var x = document.getElementById("dropdown8");
   if (x.style.display === "block") {
@@ -139,6 +145,7 @@ function assets() {
   }
 }
 
+// Stan Stopper "More"
 function more1() {
   var x = document.getElementById("dropdown5");
   if (x.style.display === "block") {
@@ -148,6 +155,7 @@ function more1() {
   }
 }
 
+// Sprout About 2D "More"
 function more2() {
   var x = document.getElementById("dropdown7");
   if (x.style.display === "block") {
@@ -157,6 +165,7 @@ function more2() {
   }
 }
 
+// Sprout About 3D "More"
 function more3() {
   var x = document.getElementById("dropdown6");
   if (x.style.display === "block") {
@@ -166,6 +175,7 @@ function more3() {
   }
 }
 
+// Crime Finder "More"
 function more4() {
   var x = document.getElementById("dropdown9");
   if (x.style.display === "block") {
@@ -175,6 +185,7 @@ function more4() {
   }
 }
 
+// Hungry Hustlers "More"
 function more5() {
   var x = document.getElementById("dropdown10");
   if (x.style.display === "block") {
@@ -184,6 +195,7 @@ function more5() {
   }
 }
 
+// Market "More"
 function more6() {
   var x = document.getElementById("dropdown11");
   if (x.style.display === "block") {

@@ -14,7 +14,6 @@ body {
   z-index: 1;
   font-family: 'HP Simplified';
   font-family: 'Trebuchet MS', sans-serif;
-
 }
 
 html{
@@ -24,7 +23,7 @@ html{
 .body3dart{
   margin: 0%;
   padding: 0%;
-background-color: #FF796A;
+  background-color: #FF796A;
 }
 
 .body2dart{
@@ -73,7 +72,6 @@ h {
   margin-top: 10%;
   margin-bottom: 5%;
   font-size: 400%;
-  font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
 }
@@ -82,7 +80,6 @@ video {
 display: block;
 margin: auto;
 border-radius: 3%;
-
 }
 
 /************
@@ -93,14 +90,12 @@ Hoverable
   margin-left: 4%;
   margin-bottom: 4%;
   font-size: 300%;
-  font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
   float: left;
   padding: 1%;
   border-radius: 15%;
   border: 10px solid #68D4FF;
   background-color: white;
-
 }
 
 .scroll:hover{
@@ -110,10 +105,8 @@ Hoverable
   cursor: pointer;
 }
 
-
 .more{
 	font-size: 280%;
-	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
 	font-weight: bold;
 	float: left;
@@ -124,7 +117,6 @@ Hoverable
 }
 
 .more:hover{
-	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
 	font-weight: bold;
 	color: #white;
@@ -201,7 +193,6 @@ a:active {
 }
 
 .noB {
-	font-family: "HP Simplified";
 	font-family: 'Trebuchet MS', sans-serif;
 }
 
@@ -229,7 +220,6 @@ font-family: HappyMarker;
   background-color: white;
   color: #68D4FF;
 }
-
 
 .linkBox {
   position: absolute;
@@ -297,9 +287,7 @@ font-family: HappyMarker;
 
 
 
-/************
-Text Boxes
-*************/
+
 
 /************
 Art Gallery
@@ -351,6 +339,9 @@ Art Presentation
 }
 
 
+
+
+
 /************
 Text for Art
 *************/
@@ -359,9 +350,7 @@ h3 {
   margin-bottom: 5%;
   margin-left: 3%;
   font-size: 300%;
-  font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
-
 }
 
 .year {
@@ -404,7 +393,6 @@ p {
   font-size: 170%;
   text-indent: 5%;
   text-align: justify;
-  font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
   line-height: 2;
 }
@@ -415,7 +403,6 @@ p {
 
 .card {
 font-size: 280%;
-font-family: "HP Simplified";
 font-family: 'Trebuchet MS', sans-serif;
 font-weight: bold;
 }
@@ -593,7 +580,6 @@ h2 {
   margin: 0%;
   padding: 3%;
   font-size: 200%;
-  font-family: "HP Simplified";
   font-family: 'Trebuchet MS', sans-serif;
 }
 
